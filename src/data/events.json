@@ -1,0 +1,2494 @@
+[
+  {
+    "title": "Sátyra Carvalho",
+    "date": "07/01/2025",
+    "time": "18:30",
+    "location": "Largo do Cruzeiro do São Francisco - Pelourinho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/satyra-carvalho/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2022/09/Satyra-Carvalho.jpeg"
+  },
+  {
+    "title": "Benção do Olodum",
+    "date": "07/01/2025",
+    "time": "20:00",
+    "location": "Praça das Artes – Pelourinho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/bencao-do-olodum/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2021/09/olodum.jpg"
+  },
+  {
+    "title": "Purgatório Sounds com Eric Assmar",
+    "date": "07/01/2025",
+    "time": "20:00",
+    "location": "Purgatório Bar - Pituba",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/purgatorio-sounds-com-eric-assmar/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2023/11/Eric-Assmar-Divulgacao-XII-por-Jose-Roberto.jpg"
+  },
+  {
+    "title": "Negros Tambores",
+    "date": "07/01/2025",
+    "time": "20:00",
+    "location": "Só Shape - Rio Vermelho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/negros-tambores/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/11/Snapinsta.app_350592653_708222854302810_6740385659664184947_n_1080.jpg"
+  },
+  {
+    "title": "OSBA celebra Mário Quintana – Quintanares",
+    "date": "07/01/2025",
+    "time": "20:00",
+    "location": "Sala do Coro - Centro",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/osba-celebra-mario-quintana-quintanares/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/12/OSBA-Quintanares.jpeg"
+  },
+  {
+    "title": "Baile Afro Muzenza e banda Mukambu",
+    "date": "07/01/2025",
+    "time": "20:00",
+    "location": "Largo Tereza Batista - Pelourinho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/baile-afro-muzenza-e-banda-mukambu/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2023/10/Muzenza.jpg"
+  },
+  {
+    "title": "Filhas da Mãe – Illa Benício, Joana Terra e Stella Maris",
+    "date": "07/01/2025",
+    "time": "21:00",
+    "location": "Casa da Mãe - Rio Vermelho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/filhas-da-mae/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2025/01/Filhas-da-Mae.jpg"
+  },
+  {
+    "title": "Samba da Fofoca – Grupo Fofocaê",
+    "date": "07/01/2025",
+    "time": "21:00",
+    "location": "A Marujada - Santo Antônio Além do Carmo",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/samba-da-fofoca-grupo-fofocae/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/11/fofocae.jpeg"
+  },
+  {
+    "title": "Curto Circuito das Artes – Lilica Rocha",
+    "date": "08/01/2025",
+    "time": "16:00",
+    "location": "Teatro Gregório de Mattos - Centro",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/curto-circuito-das-artes-lilica-rocha/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/12/Lilica-Rocha_-FotoDonminique-Santos.jpg"
+  },
+  {
+    "title": "Seleta de Quarta – Niti Seletor",
+    "date": "08/01/2025",
+    "time": "17:00",
+    "location": "Oliveiras - Santo Antônio",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/seleta-de-quarta-niti-seletor/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/12/Seleta-de-Quarta.jpeg"
+  },
+  {
+    "title": "Nina Sol",
+    "date": "08/01/2025",
+    "time": "18:30",
+    "location": "Largo do Cruzeiro do São Francisco - Pelourinho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/nina-sol/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/11/Nina-Sol-03-2.jpeg"
+  },
+  {
+    "title": "Portela Açúcar & A Outra Banda da ABOCA",
+    "date": "08/01/2025",
+    "time": "19:00",
+    "location": "ABOCA – Santo Antônio Além do Carmo",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/aboca-portela-acucar-e-veko-araujo-27/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2021/11/aboca-imagemdestacada.jpg"
+  },
+  {
+    "title": "Roda de Choro do Batatinha",
+    "date": "08/01/2025",
+    "time": "20:00",
+    "location": "Batatinha Bar - Ladeira dos Aflitos",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/roda-de-choro-do-batatinha/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2023/06/Roda-de-Choro-do-Batatinha.jpg"
+  },
+  {
+    "title": "Gravnave",
+    "date": "08/01/2025",
+    "time": "20:00",
+    "location": "Casa da Mãe - Rio Vermelho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/gravnave/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2023/10/Gravnave_Credito_AYUMI-2.jpg"
+  },
+  {
+    "title": "OSBA celebra Mário Quintana – Quintanares",
+    "date": "08/01/2025",
+    "time": "20:00",
+    "location": "Sala do Coro - Centro",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/osba-celebra-mario-quintana-quintanares-2/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/12/OSBA-Quintanares.jpeg"
+  },
+  {
+    "title": "Noite da Música Latina – Sotaki Latino",
+    "date": "08/01/2025",
+    "time": "20:00",
+    "location": "Casa da Felicidade – Barra",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/noite-da-musica-latina-sotaki-latino-7/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/09/Sotaki-Latino-1.jpeg"
+  },
+  {
+    "title": "Victor Bahia",
+    "date": "08/01/2025",
+    "time": "20:30",
+    "location": "As Divas do Tio Chico - Ipitanga",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/victor-bahia/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2022/10/victor-bahia.jpeg"
+  },
+  {
+    "title": "Samba de Lua",
+    "date": "08/01/2025",
+    "time": "21:00",
+    "location": "A Marujada - Santo Antônio Além do Carmo",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/samba-de-lua/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2023/10/Samba-de-Lua.jpg"
+  },
+  {
+    "title": "Elpidio Bastos",
+    "date": "09/01/2025",
+    "time": "18:00",
+    "location": "Largo do Cruzeiro do São Francisco - Pelourinho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/elpidio-bastos/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/11/Elpidio-Bastos-20-3.jpeg"
+  },
+  {
+    "title": "Noisenoia Festival – Shirtsleeves, Brainwashing Machines e Anemona",
+    "date": "09/01/2025",
+    "time": "19:00",
+    "location": "Blá Blá Blá Arte & Cultura - Rio Vermelho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/noisenoia-festival-shirtsleeves-brainwashing-machines-e-anemona/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2025/01/Noisenoia-Festival.jpg"
+  },
+  {
+    "title": "Fábio Lione em ‘Epic Tales Brasil Tour’",
+    "date": "09/01/2025",
+    "time": "19:00",
+    "location": "Largo Quincas Berro D'água - Pelourinho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/fabio-lione-em-epic-tales-brasil-tour/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2025/01/Fabio_Lione_ao_vivo.jpg"
+  },
+  {
+    "title": "T.A.N – Texugo, Àgatha e Nollas em ‘AllMusic’",
+    "date": "09/01/2025",
+    "time": "19:00",
+    "location": "Boteco do Criolo - Largo da Tiêta - Pelourinho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/t-a-n-texugo-agatha-e-nollas-em-allmusic/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2025/01/T.A.N.jpg"
+  },
+  {
+    "title": "Samba de Terreiro com Alacorin e Viola de Isa",
+    "date": "09/01/2025",
+    "time": "20:00",
+    "location": "A Marujada - Santo Antônio",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/samba-de-terreiro-com-alacorin-3/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2023/06/ALACORIN.jpeg"
+  },
+  {
+    "title": "Quinta Brasileira",
+    "date": "09/01/2025",
+    "time": "20:00",
+    "location": "Velho Espanha - Barris",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/quinta-brasileira-tarcisio-santos-convida-6/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/04/Quinta-Brasileira.jpeg"
+  },
+  {
+    "title": "Maurício Dias Melhores Verão",
+    "date": "09/01/2025",
+    "time": "21:00",
+    "location": "Varanda do Sesi Rio Vermelho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/mauricio-dias-melhores-verao/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/02/Mauricio-Dias.jpeg"
+  },
+  {
+    "title": "Recôncavo Experimental",
+    "date": "09/01/2025",
+    "time": "21:00",
+    "location": "Casa da Mãe - Rio Vermelho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/reconcavo-experimental-2/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/05/J.-Velloso-e-Reconcavo-Experimental.jpg"
+  },
+  {
+    "title": "Ney Santos",
+    "date": "09/01/2025",
+    "time": "21:00",
+    "location": "Jubiabá - Rio Vermelho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/ney-santos/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2025/01/Ney-Santos-Foto-Divulgacao.jpeg"
+  },
+  {
+    "title": "Terra Samba e convidados",
+    "date": "09/01/2025",
+    "time": "22:00",
+    "location": "Show Bar - Rio Vermelho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/terra-samba-e-convidados/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2025/01/Snapinsta.app_472416108_1756250594943243_5872350975548078432_n_1080.jpg"
+  },
+  {
+    "title": "Samba com Elas – Samba de Oyá",
+    "date": "10/01/2025",
+    "time": "00:39",
+    "location": "Casa da Felicidade Barra",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/samba-com-elas-samba-de-oya/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/11/samba-de-oya.webp"
+  },
+  {
+    "title": "Festival Som do Sabor – Melly, Zé Atunbí, Aurea Semiséria, Yan Cloud e Batalhas de MCs",
+    "date": "10/01/2025",
+    "time": "17:00",
+    "location": "Largo do Santo Antônio Além do Carmo",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/festival-som-do-sabor-melly-ze-atunbi-aurea-semiseria-yan-cloud-e-batalhas-de-mcs/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/07/3003-melly1253.jpg"
+  },
+  {
+    "title": "Angela Velloso",
+    "date": "10/01/2025",
+    "time": "17:30",
+    "location": "Foyer Carmen Miranda - Teatro Sesc Casa do Comércio - Caminho das Árvores",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/angela-velloso/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/12/Angela-Velloso-Foto-divulgacao-1.jpg"
+  },
+  {
+    "title": "Agnoell Crioulo",
+    "date": "10/01/2025",
+    "time": "18:00",
+    "location": "Boteco do Crioulo – Pelourinho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/agnoell-crioulo-4/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2022/01/Agnoell-Djymbe-Crioulo.jpg"
+  },
+  {
+    "title": "Baile da Santinha – Léo Santana, Nattan, Simone Mendes e Dennis",
+    "date": "10/01/2025",
+    "time": "",
+    "location": "Wet Salvador - Paralela",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/baile-da-santinha-leo-santana-nattan-simone-mendes-e-dennis/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/12/Baile-da-Santinha.jpg"
+  },
+  {
+    "title": "Val Fera",
+    "date": "10/01/2025",
+    "time": "18:30",
+    "location": "Largo do Cruzeiro do São Francisco - Pelourinho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/val-fera/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/11/Val-Fera-04.jpeg"
+  },
+  {
+    "title": "CineSom Cássia Eller",
+    "date": "10/01/2025",
+    "time": "18:30",
+    "location": "Cinema do Museu Saladearte - Corredor da Vitória",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/cinesom-cassia-eller/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2025/01/Snapinsta.app_472395905_896088299355758_2578618707681985955_n_1080-1.jpg"
+  },
+  {
+    "title": "OSBREGA  Concerto do Amor – OSBA convida  Almério e mãeana",
+    "date": "10/01/2025",
+    "time": "19:00",
+    "location": "Concha Acústica do Teatro Castro Alves",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/osbrega-concerto-do-amor-osba-convida-almerio-e-maeana/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/12/Verao-Osbrega.jpg"
+  },
+  {
+    "title": "Ensaio Aberto do Bloquinho das Irenes – Encontro de Sambistas, Bruno Barroso e convidados",
+    "date": "10/01/2025",
+    "time": "19:00",
+    "location": "Aconchego da Zuzu - Garcia",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/ensaio-aberto-do-bloquinho-das-irenes-encontro-de-sambistas-bruno-barroso-e-convidados/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2025/01/Bloquinho-das-Irenes.jpg"
+  },
+  {
+    "title": "Dom Chicla",
+    "date": "10/01/2025",
+    "time": "19:00",
+    "location": "Casa Di Rosa – Saúde",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/dom-chicla/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/04/dom-chicla.jpg"
+  },
+  {
+    "title": "Jazz na Avenida",
+    "date": "10/01/2025",
+    "time": "19:00",
+    "location": "Associação Jazz Na Avenida - Boca do Rio / Armação",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/jazz-na-avenida/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/11/JNA-Band.jpeg"
+  },
+  {
+    "title": "Você Disse Samba",
+    "date": "10/01/2025",
+    "time": "19:00",
+    "location": "Vista Baía - Liberdade",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/voce-disse-samba/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/05/Samba-do-liro-1.jpg"
+  },
+  {
+    "title": "Ensaios de Verão de Márcia Freire",
+    "date": "10/01/2025",
+    "time": "19:00",
+    "location": "Largo Pedro Archanjo - Pelourinho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/ensaios-de-verao-de-marcia-freire/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2022/10/marcia_freire.jpeg"
+  },
+  {
+    "title": "Sexta Sambe – Viola de Doze",
+    "date": "10/01/2025",
+    "time": "19:00",
+    "location": "Largo Quincas Berro D'Àgua - Pelourinho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/viola-de-doze/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/01/viola-de-doze.webp"
+  },
+  {
+    "title": "Kaline Rabelo",
+    "date": "10/01/2025",
+    "time": "20:00",
+    "location": "Largo Tereza Batista - Pelourinho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/kaline-rabelo/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2025/01/Kaline-Rabelo_creditosLeoMelo4.jpg"
+  },
+  {
+    "title": "Mambembe",
+    "date": "10/01/2025",
+    "time": "20:00",
+    "location": "Baía Sunset - Dois de Julho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/mambembe/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2025/01/Snapinsta.app_467010524_1129433322037088_4759619238078128652_n_1080.jpg"
+  },
+  {
+    "title": "Cajá",
+    "date": "10/01/2025",
+    "time": "20:00",
+    "location": "ABoca Centro de Artes - Santo Antônio",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/caja/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/07/festa-caja-semdata.jpeg"
+  },
+  {
+    "title": "Banjo Verde",
+    "date": "10/01/2025",
+    "time": "20:00",
+    "location": "Casa do Espanto - Santo Antônio Além do Carmo.",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/banjo-verde/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/08/Grupo-Banjo-Verde.jpeg"
+  },
+  {
+    "title": "Samba da Tonha e Grupo C7",
+    "date": "10/01/2025",
+    "time": "20:00",
+    "location": "Tonha Preta - Rio Vermelho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/samba-da-tonha-e-grupo-c7/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/01/grupo-C7.jpg"
+  },
+  {
+    "title": "União do Grave convida Marina Peralta, Selectah Vitrola, DJ Raíz, DJ Leandro Vitrola e DJ Nate Monaco",
+    "date": "10/01/2025",
+    "time": "20:00",
+    "location": "Sala Multiuso do Cine Glauber Rocha - Centro",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/uniao-do-grave-convida-marina-peralta-selectah-vitrola-dj-raiz-dj-leandro-vitrola-e-dj-nate-monaco/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/12/Uniao-do-Grave.jpg"
+  },
+  {
+    "title": "Grupo Botequim – Primeira roda de 2025",
+    "date": "10/01/2025",
+    "time": "21:00",
+    "location": "Pátio da Igreja do Santo Antônio Além do Carmo",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/grupo-botequim-ultima-roda-de-2024/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/11/BOTEQUIM_Carmo-2-1.jpg"
+  },
+  {
+    "title": "Péri em ‘Canções Flutuantes’",
+    "date": "10/01/2025",
+    "time": "21:00",
+    "location": "Casa da Mãe - Rio Vermelho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/peri-em-cancoes-flutuantes/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2025/01/Peri.jpg"
+  },
+  {
+    "title": "Bahia Rock Festival – Pastel de Miolos, Jack Doido, Biscoito sem Glúten, Vertigem Megitrev, Novem8ro e Crayonzz",
+    "date": "10/01/2025",
+    "time": "21:00",
+    "location": "30 Segundos - Rio Vermelho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/bahia-rock-festival-pastel-de-miolos-jack-doido-biscoito-sem-gluten-vertigem-megitrev-novem8ro-e-crayonzz/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2025/01/Bahia-Rock-Festival.jpg"
+  },
+  {
+    "title": "Alexandre Leão",
+    "date": "10/01/2025",
+    "time": "22:00",
+    "location": "Varanda do Sesi Rio Vermelho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/alexandre-leao-2/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/09/alexandre-leao.webp"
+  },
+  {
+    "title": "Xeque-Mate + Pub Jam",
+    "date": "10/01/2025",
+    "time": "22:00",
+    "location": "Pub Casa N°1 – Barbalho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/xeque-mate-pub-jam/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2025/01/Snapinsta.app_472520578_1256900218871813_6248780080787659235_n_1080.jpg"
+  },
+  {
+    "title": "Baile Funk 2000",
+    "date": "10/01/2025",
+    "time": "22:00",
+    "location": "Casa da Felicidade - Rio Vermelho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/baile-funk-2000/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/12/baile-funk-2000.jpg"
+  },
+  {
+    "title": "DJ Roger ‘N Roll",
+    "date": "10/01/2025",
+    "time": "23:59",
+    "location": "A Borracharia – Rio Vermelho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/dj-roger-n-roll/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2023/12/dj-roger-n-roll-2-1024x683-1.jpg"
+  },
+  {
+    "title": "Encontroca do Quasetrio – Jonga Lima e convidados",
+    "date": "11/01/2025",
+    "time": "11:00",
+    "location": "Bar Aconchego da Zuzu - Garcia",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/encontroca-do-quasetrio-jonga-lima-e-convidados/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/12/Encontroca.jpeg"
+  },
+  {
+    "title": "Festival Saco de Vacilo 2025 – The Honkers, Nucleador (SE), Canto Torto, Depois do Inferno e mais",
+    "date": "11/01/2025",
+    "time": "14:00",
+    "location": "Blá! Blá! Blá! Arte & Cultura - Rio Vermelho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/festival-saco-de-vacilo-2025-nucleador-se-canto-torto-depois-do-inferno-e-mais/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/12/Snapinsta.app_470894614_544310448599585_2159766295619481043_n_1080.jpg"
+  },
+  {
+    "title": "Festival do Parque – Pedro Pondé, Vini Nogueira e Nata do Samba",
+    "date": "11/01/2025",
+    "time": "14:00",
+    "location": "Parque da Cidade - Itaigara",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/festival-do-parque-pedro-ponde-vini-nogueira-e-nata-do-samba/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/04/PedroPonde.jpg"
+  },
+  {
+    "title": "Churrasquinho Menos é Mais Salvador",
+    "date": "11/01/2025",
+    "time": "14:00",
+    "location": "Centro de Convenções Salvador - Boca do Rio",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/churrasquinho-menos-e-mais-salvador/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/11/Churrasquinho-Menos-e-Mais-3.jpg"
+  },
+  {
+    "title": "Pranchão 2025 – Timbalada, Durval Lelys e Filhos de Jorge",
+    "date": "11/01/2025",
+    "time": "15:00",
+    "location": "Arena Fonte Nova - Nazaré",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/pranchao-2025-timbalada-durval-lelys-e-filhos-de-jorge/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/12/pranchao-2025.jpg"
+  },
+  {
+    "title": "Festa Verão 40 – DJs Errari, Ian Fraguas e Mary Jane Beck",
+    "date": "11/01/2025",
+    "time": "15:30",
+    "location": "Terê Gastrobar - Rio Vermelho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/festa-verao-40-djs-errari-ian-fraguas-e-mary-jane-beck/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2025/01/Festa-Verao-40.jpg"
+  },
+  {
+    "title": "Samba FC Summer – Grupo Movimento e convidados",
+    "date": "11/01/2025",
+    "time": "16:00",
+    "location": "Sunset Music Bar – Pituaçu",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/samba-fc-summer-grupo-movimento-e-convidados/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2025/01/Samba-FC-Summer.jpg"
+  },
+  {
+    "title": "Sibí Dúdú – Nega Duda Sambadeira e  Orquestra de Atabaques Mãos no Couro",
+    "date": "11/01/2025",
+    "time": "16:00",
+    "location": "Espaço Cultural da Barroquinha",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/sibi-dudu-nega-duda-sambadeira-e-orquestra-de-atabaques-maos-no-couro/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/12/maos-no-couro.jpg"
+  },
+  {
+    "title": "Illy em ‘Samba Djanira’",
+    "date": "11/01/2025",
+    "time": "16:20",
+    "location": "Museu de Arte Moderna da Bahia (MAM)",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/illy-em-samba-djanira/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2023/12/Illy-foto-Mariana-Falcao.jpg"
+  },
+  {
+    "title": "É Só um Pagode – Samba e Suor, Matheus Capry, Douglas Separação e mais",
+    "date": "11/01/2025",
+    "time": "17:00",
+    "location": "Oh Pirão – Cabula",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/e-so-um-pagode-samba-e-suor-matheus-capry-douglas-separacao-e-mais/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2025/01/Snapinsta.app_472069864_18481112587058938_5404641347897616731_n_1080.jpg"
+  },
+  {
+    "title": "Festival Som do Sabor – Afrocidade, Pagotrap de Guedez, Ravi Lobo, Tiri e Batalhas de dança urbana",
+    "date": "11/01/2025",
+    "time": "17:00",
+    "location": "Largo do Santo Antônio Além do Carmo",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/festival-som-do-sabor-afrocidade-pagotrap-de-guedez-ravi-lobo-tiri-e-batalhas-de-danca-urbana/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/11/Snapinsta.app_422092039_363093696340987_2080614991730959835_n_1080.jpg"
+  },
+  {
+    "title": "Samba da Resistência convida Gal do Beco",
+    "date": "11/01/2025",
+    "time": "17:00",
+    "location": "Espaço Cultural Rumo do Vento - Alto da Bela Vista de Itapuã",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/samba-da-resistencia-convida-gal-do-beco/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2023/07/Gal-do-Beco.jpg"
+  },
+  {
+    "title": "Cid Rocha",
+    "date": "11/01/2025",
+    "time": "18:30",
+    "location": "Largo do Cruzeiro do São Francisco - Pelourinho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/cid-rocha/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2023/10/Cid-Rocha-01.jpeg"
+  },
+  {
+    "title": "OSBREGA Concerto do Amor – OSBA, Almério e mãeana",
+    "date": "11/01/2025",
+    "time": "19:00",
+    "location": "Concha Acústica do Teatro Castro Alves",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/osbrega-concerto-do-amor-osba-almerio-e-maeana/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/12/Osbrega-Concerto-do-Amor-Foto-Caio-Lirio-Copia.jpg"
+  },
+  {
+    "title": "Negra Cor",
+    "date": "11/01/2025",
+    "time": "19:00",
+    "location": "Projeto Tamar – Praia do Forte",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/negra-cor/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/12/Negra-Cor.webp"
+  },
+  {
+    "title": "Joana Terra em ‘Linda, linda, linda’",
+    "date": "11/01/2025",
+    "time": "19:00",
+    "location": "Merendeira - Imbassaí",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/joana-terra-em-linda-linda-linda-2/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2021/04/Joana-Terra-lanca-disco-Feito-Raio-Foto-Ashlley-Melo-2.jpg"
+  },
+  {
+    "title": "Samba Banjo Verde",
+    "date": "11/01/2025",
+    "time": "20:00",
+    "location": "Casa do Espanto - Santo Antônio Além do Carmo",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/samba-banjo-verde/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/08/Grupo-Banjo-Verde.jpeg"
+  },
+  {
+    "title": "Samba das Cumades",
+    "date": "11/01/2025",
+    "time": "20:00",
+    "location": "Batatinha Bar - Campo Grande",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/samba-das-cumades/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2023/08/samba-das-cumades.jpeg"
+  },
+  {
+    "title": "Performáticos Quilombo em ‘Magia Negra’",
+    "date": "11/01/2025",
+    "time": "20:00",
+    "location": "Teatro SESC- SENAC Pelourinho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/performaticos-quilombo-em-magia-negra/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/12/Performaticos-Quilombo.jpg"
+  },
+  {
+    "title": "Esquina Convida 14 Bis e Esquina de Minas",
+    "date": "11/01/2025",
+    "time": "20:00",
+    "location": "Pupileira - Nazaré",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/esquina-convida-14-bis/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/07/14-Bis-1.jpg"
+  },
+  {
+    "title": "Samba da Tonha e Grupo C7",
+    "date": "11/01/2025",
+    "time": "20:00",
+    "location": "Tonha Preta - Rio Vermelho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/samba-da-tonha-e-grupo-c7-2/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/01/grupo-C7.jpg"
+  },
+  {
+    "title": "Timeless",
+    "date": "11/01/2025",
+    "time": "20:30",
+    "location": "As Divas do Tio Chico - Ipitanga, Lauro de Freitas",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/timeless/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/06/timeless-1.jpeg"
+  },
+  {
+    "title": "Suinga",
+    "date": "11/01/2025",
+    "time": "21:00",
+    "location": "Colaboraê, Rua Borges dos Reis, 81 - Rio Vermelho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/suinga/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2023/12/banda-suinga.webp"
+  },
+  {
+    "title": "Andrezza em ‘Gal Pra Dançar’",
+    "date": "11/01/2025",
+    "time": "21:00",
+    "location": "Entre Folhas e Ervas - Lapinha",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/andrezza-em-gal-pra-dancar/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/12/Andrezza-em-Gal-Pra-Dancar.jpg"
+  },
+  {
+    "title": "Paroano Sai Milhó",
+    "date": "11/01/2025",
+    "time": "21:30",
+    "location": "Varanda do Teatro SESI Rio Vermelho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/paroano-sai-milho/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/11/Paroano-Sai-Milho-8.jpeg"
+  },
+  {
+    "title": "Jussara Silveira e Sylvia Patricia em ‘Balada de um Vagabundo – A Música de Waly Salomão’",
+    "date": "11/01/2025",
+    "time": "22:00",
+    "location": "Casa Rosa - Rio Vermelho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/jussara-silveira-e-sylvia-patricia-em-balada-de-um-vagabundo-a-musica-de-waly-salomao/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/12/Jussara-Silveira-e-Sylvia-Patricia.jpeg"
+  },
+  {
+    "title": "Festival do Parque – Jau, Babado Novo e Uel",
+    "date": "12/01/2025",
+    "time": "10:00",
+    "location": "Parque da Cidade - Itaigara",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/festival-do-parque-festival-do-parque-jau-babado-novo-e-uel/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2021/09/Jau.png"
+  },
+  {
+    "title": "Festa Ümbala S25 – Kini b2b Sammy Dreams, Nic Camel, Lord Breu, Jerônimo e Pivoman",
+    "date": "12/01/2025",
+    "time": "13:00",
+    "location": "Terê Gastrobar Salvador - Rio Vermelho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/festa-umbala-s25-kini-b2b-sammy-dreams-nic-camel-lord-breu-jeronimo-e-pivoman/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2025/01/Festa-Umbala-S25.jpg"
+  },
+  {
+    "title": "Feyjão Carioca",
+    "date": "12/01/2025",
+    "time": "16:00",
+    "location": "Casa Castro Alves - Santo Antônio Além do Carmo",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/feyjao-carioca-2/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2025/01/Feyjao-Carioca.webp"
+  },
+  {
+    "title": "Sibí Dúdú – Nega Duda Sambadeira e  Orquestra de Atabaques Mãos no Couro",
+    "date": "12/01/2025",
+    "time": "16:00",
+    "location": "Espaço Cultural da Barroquinha",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/sibi-dudu-nega-duda-sambadeira-e-orquestra-de-atabaques-maos-no-couro-2/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/12/maos-no-couro.jpg"
+  },
+  {
+    "title": "Carlinhos Brown e convidados",
+    "date": "12/01/2025",
+    "time": "17:00",
+    "location": "Candyall Ghetho Square - Candeal",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/carlinhos-brown-e-convidados/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2023/12/Carlinhos-Brown-Foto_-@olhosdelincefilmes-@fabiobouzasfotoart.jpeg"
+  },
+  {
+    "title": "Festival Som do Sabor – Àttooxxá, Ju Moraes e Sambaiana e Samba da Suco de Bahia",
+    "date": "12/01/2025",
+    "time": "17:00",
+    "location": "Largo do Santo Antônio Além do Carmo",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/festival-som-do-sabor-attooxxa-ju-moraes-e-sambaiana-e-samba-da-suco-de-bahia/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/11/Attooxxa-credito-tercio-campelo.jpeg"
+  },
+  {
+    "title": "Forró do Talco – Jó Miranda e Di Filó",
+    "date": "12/01/2025",
+    "time": "19:00",
+    "location": "Z1 Bar - Rio Vermelho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/forro-do-talco-jo-miranda-e-di-filo/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/04/Jo-Miranda.jpg"
+  },
+  {
+    "title": "Mãeana em ‘JG – João Gomes e João Gilberto’",
+    "date": "12/01/2025",
+    "time": "20:00",
+    "location": "Casa da Mãe - Rio Vermelho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/maeana-em-jg-joao-gomes-e-joao-gilberto-6/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/07/maeana.jpeg"
+  },
+  {
+    "title": "Ensaio do Cortejo Afro",
+    "date": "13/01/2025",
+    "time": "21:00",
+    "location": "Praça das Artes – Pelourinho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/ensaio-do-cortejo-afro-2/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/12/Divulgacao-Cortejo-Afro-12.jpg"
+  },
+  {
+    "title": "Encontro de Sambistas",
+    "date": "13/01/2025",
+    "time": "21:00",
+    "location": "Só Shape - Rio Vermelho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/encontro-de-sambistas-2-14/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2023/11/encontro-de-sambistas-so-shape.png"
+  },
+  {
+    "title": "Mãeana em ‘JG – João Gomes e João Gilberto’",
+    "date": "13/01/2025",
+    "time": "21:00",
+    "location": "Casa da Mãe - Rio Vermelho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/maeana-em-jg-joao-gomes-e-joao-gilberto/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/07/maeana.jpeg"
+  },
+  {
+    "title": "Benção do Olodum",
+    "date": "14/01/2025",
+    "time": "20:00",
+    "location": "Praça das Artes – Pelourinho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/bencao-do-olodum-2/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2021/09/olodum.jpg"
+  },
+  {
+    "title": "Quinta Justa no Pelô – Luciano Calazans convida Afrocidade, Ricardo Chaves, Marcia Freire, Tais Nader",
+    "date": "15/01/2025",
+    "time": "19:00",
+    "location": "Largo Pedro Archanjo - Pelourinho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/quinta-justa-no-pelo-luciano-calazans-convida-afrocidade-ricardo-chaves-marcia-freire-tais-nader/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/11/LUCIANO-CALAZANS-1.webp"
+  },
+  {
+    "title": "Banjo Novo no Bonfim – Banda Poeira Pura, Grupo Iluaie e Grupo Movimento",
+    "date": "16/01/2025",
+    "time": "13:00",
+    "location": "Jardim da Casa Pia - Calçada",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/banjo-novo-no-bonfim-banda-poeira-pura-grupo-iluaie-e-grupo-movimento/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/12/Banjo-Novo-Grupo-Iluaie_divulgacao.jpg"
+  },
+  {
+    "title": "Primeiro Banjo do Ano – Banjo Novo e Poeira Pura",
+    "date": "16/01/2025",
+    "time": "13:00",
+    "location": "Jardim da Casa Pia - Calçada",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/primeiro-banjo-do-ano-banjo-novo-e-poeira-pura/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2025/01/Primeiro-Banjo-do-Ano.jpg"
+  },
+  {
+    "title": "Te Vejo no Bonfim – Xande de Pilares, Tiee, Filipe Escandurras e Renanzinho CBX",
+    "date": "16/01/2025",
+    "time": "14:00",
+    "location": "Porto de Salvador - Comércio",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/te-vejo-no-bonfim-xande-de-pilares-tiee-filipe-escandurras-e-renanzinho-cbx/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2025/01/Te-Vejo-no-Bonfim-.jpg"
+  },
+  {
+    "title": "Alexandre Leão em ‘Fé e Festa’",
+    "date": "16/01/2025",
+    "time": "14:30",
+    "location": "Sesi Casa Branca - Caminho de Areia",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/alexandre-leao-em-fe-e-festa/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2025/01/Alexandre-Leao-em-fe-e-Festa.jpg"
+  },
+  {
+    "title": "Bom Fim de Festa – Jau, Filhos de Jorge e Sambaiana",
+    "date": "16/01/2025",
+    "time": "16:00",
+    "location": "Trapiche Barnabé - Comércio",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/bom-fim-de-festa-jau-filhos-de-jorge-e-sambaiana/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/11/Bom-Fim-de-Festa-1.jpg"
+  },
+  {
+    "title": "Carlos Barros em ‘Gal Hoje’",
+    "date": "17/01/2025",
+    "time": "17:30",
+    "location": "Foyer Carmen Miranda - Teatro Sesc Casa do Comércio - Caminho das Árvores",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/carlos-barros-em-gal-hoje-2/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/04/Carlos-Barros.jpeg"
+  },
+  {
+    "title": "Viva o Samba – Samba Trator e Oma Obá",
+    "date": "17/01/2025",
+    "time": "18:00",
+    "location": "Praça das Artes - Pelourinho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/viva-o-samba-samba-trator-e-oma-oba/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/12/Viva-o-Samba.jpg"
+  },
+  {
+    "title": "Fatiota",
+    "date": "17/01/2025",
+    "time": "19:00",
+    "location": "Teatro Gamboa - Dois de Julho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/fatiota/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2022/10/Felipe-Fatiota.jpg"
+  },
+  {
+    "title": "Seu Jorge",
+    "date": "17/01/2025",
+    "time": "19:00",
+    "location": "Concha Acústica do TCA -Centro",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/seu-jorge/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/12/seu-jorge.jpeg"
+  },
+  {
+    "title": "Cajá",
+    "date": "17/01/2025",
+    "time": "20:00",
+    "location": "ABoca Centro de Artes - Santo Antônio",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/caja-2/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/07/festa-caja-semdata.jpeg"
+  },
+  {
+    "title": "Danceteria 80 – Faustão e banda RETR80",
+    "date": "17/01/2025",
+    "time": "21:00",
+    "location": "The Green House - Rio Vermelho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/danceteria-80-faustao-e-banda-retr80/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2025/01/Danceteria-80.jpg"
+  },
+  {
+    "title": "Bailinho – Resenha da Laje",
+    "date": "17/01/2025",
+    "time": "21:00",
+    "location": "Vista Baía - Liberdade",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/bailinho-resenha-da-laje/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2025/01/Resenha-da-Laje.jpg"
+  },
+  {
+    "title": "Alexandre Leão",
+    "date": "17/01/2025",
+    "time": "22:00",
+    "location": "Varanda do Sesi Rio Vermelho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/alexandre-leao-3/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/09/alexandre-leao.webp"
+  },
+  {
+    "title": "Baile Noite Preta – Dão Black convida o Ilê Aiyê",
+    "date": "17/01/2025",
+    "time": "22:00",
+    "location": "Casa Rosa - Rio Vermelho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/baile-noite-preta-dao-black-convida-o-ile-aiye/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2025/01/Baile-Noite-Preta-Dao-Black-convida-o-Ile-Aiye.jpg"
+  },
+  {
+    "title": "Festival do Parque – Eric Assmar e Vina Calmon",
+    "date": "18/01/2025",
+    "time": "14:00",
+    "location": "Parque da Cidade - Itaigara",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/festival-do-parque-eric-assmar-e-vina-calmon/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2023/11/Eric-Assmar-Divulgacao-XII-por-Jose-Roberto.jpg"
+  },
+  {
+    "title": "Ensaios da Anitta",
+    "date": "18/01/2025",
+    "time": "16:00",
+    "location": "Centro de convenções - Boca do Rio",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/ensaios-da-anitta/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/10/anitta.jpg"
+  },
+  {
+    "title": "Ensaio do Psi – Psirico e convidados",
+    "date": "18/01/2025",
+    "time": "16:00",
+    "location": "Convento Santa Clara do Desterro - Nazaré",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/ensaio-do-psi-psirico-e-convidados/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/12/Ensaio-do-Psi-Psirico-e-convidados.webp"
+  },
+  {
+    "title": "Fragmentos de Amor – Fragmentos de Samba",
+    "date": "18/01/2025",
+    "time": "17:00",
+    "location": "Casa de Castro Alves - Santo Antonio",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/fragmentos-de-amor-fragmentos-de-samba/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/10/Fragmentos-de-Amor.jpeg"
+  },
+  {
+    "title": "Baile do Rasta – Jeremias Gomes convida Edson Gomes, Serginho, Nengo Vieira, Edy Vox e DJ Ras Sales",
+    "date": "18/01/2025",
+    "time": "18:00",
+    "location": "Concha Acústica do TCA",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/baile-do-rasta-jeremias-gomes-e-convidados/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/12/Jeremias-Gomes.webp"
+  },
+  {
+    "title": "Suco de Bahia – Taian Paim e convidados",
+    "date": "18/01/2025",
+    "time": "20:00",
+    "location": "Cerimonial Conceição da Praia - Comercio",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/suco-de-bahia-taian-paim-e-convidados/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2023/11/taian-paim.png"
+  },
+  {
+    "title": "Samba Villas",
+    "date": "18/01/2025",
+    "time": "21:00",
+    "location": "Villa Armazém - Lauro de Freitas",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/samba-villas/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2025/01/Samba-Villas.jpg"
+  },
+  {
+    "title": "Meus Amigos Estão Velhos + Miguel e Os Futuríveis",
+    "date": "18/01/2025",
+    "time": "21:00",
+    "location": "Espaço Cultural Colaboraê - Rio Vermelho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/meus-amigos-estao-velhos-miguel-e-os-futuriveis/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/12/Meus-Amigos-Estao-Velhos-Miguel-e-Os-Futuriveis.jpg"
+  },
+  {
+    "title": "Noêmi em ‘Reggae Vibes’",
+    "date": "18/01/2025",
+    "time": "21:00",
+    "location": "Beco das Artes -Stella Maris",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/noemi-em-reggae-vibes/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/11/Noemi.jpeg"
+  },
+  {
+    "title": "Manu Chao Ultra Acústico",
+    "date": "18/01/2025",
+    "time": "21:00",
+    "location": "Largo da Tieta - Pelourinho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/manu-chao-ultra-acustico/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2025/01/Manu-Chao-Divulgacao-1.jpeg"
+  },
+  {
+    "title": "Matheus Montino Quinteto",
+    "date": "18/01/2025",
+    "time": "22:00",
+    "location": "Pub Casa N.1 - Barbalho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/matheus-montino-quinteto/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2025/01/Matheus-Montino.jpg"
+  },
+  {
+    "title": "Festival do Parque – Filhos de Jorge, Tomate e Ruan Santana",
+    "date": "19/01/2025",
+    "time": "10:00",
+    "location": "Parque da Cidade - Itaigara",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/festival-do-parque-filhos-de-jorge-tomate-e-ruan-santana/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2022/11/Filhos-de-Jorge.jpg"
+  },
+  {
+    "title": "Timbalada",
+    "date": "19/01/2025",
+    "time": "16:00",
+    "location": "Candyall Guetho Square - Candeal",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/timbalada-3/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/01/Timbalada.webp"
+  },
+  {
+    "title": "Feyjão Carioca",
+    "date": "19/01/2025",
+    "time": "16:00",
+    "location": "Casa Castro Alves - Santo Antônio Além do Carmo",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/feyjao-carioca-3/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2025/01/Feyjao-Carioca.webp"
+  },
+  {
+    "title": "Luiz Caldas – 40 anos do disco Magia",
+    "date": "19/01/2025",
+    "time": "16:00",
+    "location": "MAM - Museu de Arte Moderna",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/luiz-caldas/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/02/luiz-caldas.webp"
+  },
+  {
+    "title": "Sambazin de Jorge Aragão",
+    "date": "19/01/2025",
+    "time": "16:00",
+    "location": "Centro de Convenções Salvador - Boca do Rio",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/sambazin-de-jorge-aragao/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/12/Jorge-AragaoCredito-da-foto-Yves-Lohan03.jpeg"
+  },
+  {
+    "title": "Sambaiana – Ensaio de Verão",
+    "date": "19/01/2025",
+    "time": "17:00",
+    "location": "Colaboraê - Rua Borges dos Reis, 81 Rio Vermelho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/sambaiana/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/11/sambaiana.webp"
+  },
+  {
+    "title": "Vércio em ‘Pedra de Responsa’",
+    "date": "19/01/2025",
+    "time": "17:00",
+    "location": "Teatro Gamboa - Dois de Julho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/vercio-em-pedra-de-responsa-2/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/03/Vercio-Ensaio-por-Milena-Palladino-2023-153.jpg"
+  },
+  {
+    "title": "Tio Elétrico",
+    "date": "19/01/2025",
+    "time": "17:00",
+    "location": "Varanda do Sesi Rio Vermelho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/tio-eletrico/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2023/02/Tio-eletrico-500x480-1.png"
+  },
+  {
+    "title": "Samba Delas",
+    "date": "19/01/2025",
+    "time": "18:00",
+    "location": "Oliveiras - Santo Antônio",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/samba-delas-3/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/09/samba-delas.jpg"
+  },
+  {
+    "title": "Mãeana em ‘JG – João Gomes e João Gilberto’",
+    "date": "19/01/2025",
+    "time": "20:00",
+    "location": "Casa da Mãe - Rio Vermelho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/maeana-em-jg-joao-gomes-e-joao-gilberto-6-2/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/07/maeana.jpeg"
+  },
+  {
+    "title": "Ensaio do Cortejo Afro",
+    "date": "20/01/2025",
+    "time": "21:00",
+    "location": "Praça das Artes – Pelourinho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/ensaio-do-cortejo-afro-3/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/12/Divulgacao-Cortejo-Afro-12.jpg"
+  },
+  {
+    "title": "Mãeana em ‘JG – João Gomes e João Gilberto’",
+    "date": "20/01/2025",
+    "time": "21:00",
+    "location": "Casa da Mãe - Rio Vermelho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/maeana-em-jg-joao-gomes-e-joao-gilberto-3/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/07/maeana.jpeg"
+  },
+  {
+    "title": "Benção do Olodum",
+    "date": "21/01/2025",
+    "time": "20:00",
+    "location": "Praça das Artes – Pelourinho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/bencao-do-olodum-3/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2021/09/olodum.jpg"
+  },
+  {
+    "title": "Cheiro de Amor",
+    "date": "23/01/2025",
+    "time": "19:30",
+    "location": "Concha Acústica do Teatro Castro Alves",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/cheiro-de-amor/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/10/Cheiro-Amor-550x340_0-1.jpg"
+  },
+  {
+    "title": "Isabella Taviani",
+    "date": "23/01/2025",
+    "time": "20:00",
+    "location": "Teatro Sesc Casa do Comércio - Caminho das Árvores",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/isabella-taviani/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/12/Isabella-Taviani.webp"
+  },
+  {
+    "title": "Tiri em ‘Canto o que sei’",
+    "date": "24/01/2025",
+    "time": "17:30",
+    "location": "Foyer Carmen Miranda - Teatro Sesc Casa do Comércio - Caminho das Árvores",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/tiri-em-canto-o-que-sei/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/09/Tiri.jpeg"
+  },
+  {
+    "title": "Marcos Clement",
+    "date": "24/01/2025",
+    "time": "20:00",
+    "location": "Teatro SESC Casa do Comércio -Caminho das Árvores",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/marcos-clement/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2021/12/toca-raul-marcos-clement.jpeg"
+  },
+  {
+    "title": "Cajá",
+    "date": "24/01/2025",
+    "time": "20:00",
+    "location": "ABoca Centro de Artes - Santo Antônio",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/caja-3/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/07/festa-caja-semdata.jpeg"
+  },
+  {
+    "title": "Alexandre Leão",
+    "date": "24/01/2025",
+    "time": "22:00",
+    "location": "Varanda do Sesi Rio Vermelho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/alexandre-leao-4/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/09/alexandre-leao.webp"
+  },
+  {
+    "title": "Pietá",
+    "date": "24/01/2025",
+    "time": "22:00",
+    "location": "Casa Rosa - Rio Vermelho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/pieta/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/12/pieta-nasci-no-brasil.jpeg"
+  },
+  {
+    "title": "Festival de Verão – Daniela Mercury & Timbalada, Pitty & Melly, Só Pra Contrariar (SPC) com Alcione e outros",
+    "date": "25/01/2025",
+    "time": "",
+    "location": "Parque de Exposições de Salvador",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/festival-de-verao-so-pra-contrariar-spc-com-alcione-ana-castela-xama-e-dj-alok/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/11/festival-de-verao-2025.jpeg"
+  },
+  {
+    "title": "Festival do Parque – Márcia Freire",
+    "date": "25/01/2025",
+    "time": "14:00",
+    "location": "Parque da Cidade - Itaigara",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/festival-do-parque-marcia-freire/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2022/10/marcia_freire.jpeg"
+  },
+  {
+    "title": "Classic Rock Revival – Candice Fiais, Kingsmen e Let’s Rock",
+    "date": "25/01/2025",
+    "time": "15:30",
+    "location": "Braseiro do Juba - Caminho das Árvores",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/classic-rock-revival-candice-fiais-kingsmen-e-lets-rock/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/12/Classic-Rock-Revival.jpg"
+  },
+  {
+    "title": "Festa do Bloco De Hoje A 8 – Batucada DHJA8, Banda Mambembe e DJ Libre Ana",
+    "date": "25/01/2025",
+    "time": "17:00",
+    "location": "Pátio da Igreja de Santo Antônio Além do Carmo",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/festa-do-bloco-de-hoje-a-8-batucada-dhja8-banda-mambembe-e-dj-libre-ana/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/12/Festa-do-Bloco-De-Hoje-A-8.jpg"
+  },
+  {
+    "title": "JAM no MAM – Geleia Solar e convidados",
+    "date": "25/01/2025",
+    "time": "18:00",
+    "location": "MAM - Museu de Arte Moderna da Bahia (Solar do Unhão",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/jam-no-mam-geleia-solar-e-convidados/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2023/02/Geleia_Solar_na_JAMnoMAM_foto_Ligia_Rizerio-1.jpg"
+  },
+  {
+    "title": "Dão Black em ‘Sambadelic’",
+    "date": "25/01/2025",
+    "time": "20:00",
+    "location": "Teatro Sesc Casa do Comércio - Caminho das Árvores",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/dao-black-em-sambadelic/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/11/Cantor-Dao-Black.jpeg"
+  },
+  {
+    "title": "Heaven & Hell Dio Tribute e Lugubra",
+    "date": "25/01/2025",
+    "time": "22:00",
+    "location": "The Green House - Rio Vermelho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/heaven-hell-dio-tribute-e-lugubra/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/12/Heaven-Hell-Dio-Tribute-Lugubra.jpg"
+  },
+  {
+    "title": "Festival de Verão – BaianaSystem convida Marcelo D2 e Bnegão, Saulo & Luiz Caldas, Léo Santana e outros",
+    "date": "26/01/2025",
+    "time": "",
+    "location": "Parque de Exposições de Salvador",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/festival-de-verao-ludmilla-ivete-sangalo-e-jao-com-gustavo-mioto/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/11/festival-de-verao-2025.jpeg"
+  },
+  {
+    "title": "Festival do Parque – Bailinho de Quinta, Thiago Aquino e Ruan Santana",
+    "date": "26/01/2025",
+    "time": "10:00",
+    "location": "Parque da Cidade - Itaigara",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/festival-do-parque-bailinho-de-quinta-thiago-aquino-e-ruan-santana/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2023/09/Bailinho-de-Quinta.jpeg"
+  },
+  {
+    "title": "Pôr do Samba – Renanzinho Cbx, Luís (ex-Katule) e outros",
+    "date": "26/01/2025",
+    "time": "14:00",
+    "location": "Clube Espanhol - Ondina",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/por-do-samba-renanzinho-cbx-luis-ex-katule-e-outros/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2025/01/Por-do-Samba.webp"
+  },
+  {
+    "title": "Sambàṣẹ",
+    "date": "26/01/2025",
+    "time": "15:00",
+    "location": "Batatinha Bar - Centro",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/samba%e1%b9%a3e/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/12/Sambaṣe.jpg"
+  },
+  {
+    "title": "Festival de Música Negra do Ilê Aiyê – Band’Aiyê, Filhos de Jorge e convidados",
+    "date": "26/01/2025",
+    "time": "16:00",
+    "location": "Senzala do Barro Preto – Curuzu",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/festival-de-musica-negra-do-ile-aiye-bandaiye-filhos-de-jorge-e-convidados/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2015/02/1saida-ile-aiye-carnaval-2012.jpg"
+  },
+  {
+    "title": "Taináh e Bruno Aranha",
+    "date": "26/01/2025",
+    "time": "17:00",
+    "location": "Teatro Gamboa - Largo dos Aflitos",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/tainah-e-bruno-aranha/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/12/Tainah-e-Bruno-Aranha.jpg"
+  },
+  {
+    "title": "Festival de Musica Negra Ilê Aiyê – Band`Aiyê e Filhos de Jorge",
+    "date": "26/01/2025",
+    "time": "17:00",
+    "location": "Senzala do Barro Preto - Curuzu",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/festival-de-musica-negra-ile-aiye-bandaiye-e-filhos-de-jorge/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2025/01/50°-Festival-de-Musica-Negra-Ile-Aiye.webp"
+  },
+  {
+    "title": "Mãeana em ‘JG – João Gomes e João Gilberto’",
+    "date": "26/01/2025",
+    "time": "20:00",
+    "location": "Casa da Mãe - Rio Vermelho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/maeana-em-jg-joao-gomes-e-joao-gilberto-6-3/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/07/maeana.jpeg"
+  },
+  {
+    "title": "Ensaio do Cortejo Afro",
+    "date": "27/01/2025",
+    "time": "21:00",
+    "location": "Praça das Artes – Pelourinho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/ensaio-do-cortejo-afro-4/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/12/Divulgacao-Cortejo-Afro-12.jpg"
+  },
+  {
+    "title": "Mãeana em ‘JG – João Gomes e João Gilberto’",
+    "date": "27/01/2025",
+    "time": "21:00",
+    "location": "Casa da Mãe - Rio Vermelho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/maeana-em-jg-joao-gomes-e-joao-gilberto-4/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/07/maeana.jpeg"
+  },
+  {
+    "title": "Benção do Olodum",
+    "date": "28/01/2025",
+    "time": "20:00",
+    "location": "Praça das Artes – Pelourinho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/bencao-do-olodum-4/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2021/09/olodum.jpg"
+  },
+  {
+    "title": "Paquito em ‘Voltei a Cantar’",
+    "date": "28/01/2025",
+    "time": "20:00",
+    "location": "Sala do Coro - Centro",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/paquito-em-voltei-a-cantar/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/12/paquito3j.jpg"
+  },
+  {
+    "title": "Ana Paula Albuquerque em ‘Tributo aos Tincoãs’",
+    "date": "29/01/2025",
+    "time": "20:00",
+    "location": "Sala do Coro - Centro",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/ana-paula-albuquerque-em-tributo-aos-tincoas/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2025/01/Ana-Paula-Albuquerque-em-Tributo-aos-Tincoas.jpg"
+  },
+  {
+    "title": "Marcia Castro e convidados em ‘Roda de Samba Reggae’",
+    "date": "30/01/2025",
+    "time": "19:00",
+    "location": "Caixa Cultural - Centro",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/marcia-castro-e-convidados-em-roda-de-samba-reggae/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2023/12/Marcia-Castro-grava-ao-vivo-Roda-de-Samba-Reggae-no-dia-22-de-marco-na-Praca-da-Cruz-Caida-_-Creditos-Pedrita-Junckes-1.jpg"
+  },
+  {
+    "title": "Encontro Mauanda Bankoma",
+    "date": "30/01/2025",
+    "time": "20:00",
+    "location": "Largo Tereza Batista – Pelourinho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/encontro-mauanda-bankoma/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/12/encontro-Bankoma.jpg"
+  },
+  {
+    "title": "Carlos Barros em ‘Ensaio de Amor: canções de Adriana Calcanhotto’",
+    "date": "31/01/2025",
+    "time": "17:30",
+    "location": "Foyer Carmen Miranda - Teatro Sesc Casa do Comércio - Caminho das Árvores",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/carlos-barros-em-ensaio-de-amor-cancoes-de-adriana-calcanhotto/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2023/05/Carlos-Barros.jpg"
+  },
+  {
+    "title": "‘Pagodão na Concha’ – Saulo Fernandes, Edcity, Bambam, Xella, Aila e Nenel",
+    "date": "31/01/2025",
+    "time": "19:00",
+    "location": "Concha Acústica do TCA",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/pagodao-na-concha-saulo-fernandes-edcity-bambam-xella-aila-e-nenel/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/11/Pagodao-na-Concha.jpg"
+  },
+  {
+    "title": "Marcia Castro e convidados em ‘Roda de Samba Reggae’",
+    "date": "31/01/2025",
+    "time": "19:00",
+    "location": "Caixa Cultural - Centro",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/marcia-castro-e-convidados-em-roda-de-samba-reggae-2/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2023/12/Marcia-Castro-grava-ao-vivo-Roda-de-Samba-Reggae-no-dia-22-de-marco-na-Praca-da-Cruz-Caida-_-Creditos-Pedrita-Junckes-1.jpg"
+  },
+  {
+    "title": "Cajá",
+    "date": "31/01/2025",
+    "time": "20:00",
+    "location": "ABoca Centro de Artes - Santo Antônio",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/caja-4/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/07/festa-caja-semdata.jpeg"
+  },
+  {
+    "title": "Alexandre Leão",
+    "date": "31/01/2025",
+    "time": "22:00",
+    "location": "Varanda do Sesi Rio Vermelho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/alexandre-leao-5/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/09/alexandre-leao.webp"
+  },
+  {
+    "title": "Rafael Pondé",
+    "date": "01/02/2025",
+    "time": "17:00",
+    "location": "Teatro Gamboa - Dois de Julho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/rafael-ponde/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/12/Rafael-Ponde.jpg"
+  },
+  {
+    "title": "Rachel Reis em ‘Canto da Sereiona’",
+    "date": "01/02/2025",
+    "time": "18:00",
+    "location": "Museu de Arte Moderna da Bahia - MAM",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/rachel-reis-em-canto-da-sereiona/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/08/Rachel_Reis_Credito-Luan-Martins-2.jpg"
+  },
+  {
+    "title": "Noite de Iemanjá – Filhos de Jorge, Bailinho de Quinta e DJ Matheus CE",
+    "date": "01/02/2025",
+    "time": "20:00",
+    "location": "Hotel Fasano Salvador - Centro",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/noite-de-iemanja-filhos-de-jorge-bailinho-de-quinta-e-dj-matheus-ce/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/12/noite-de-iemanja.jpg"
+  },
+  {
+    "title": "Dia de Iemanjá Chopp Shop – Samba Só Quando Der e DJ Niti Seletor",
+    "date": "02/02/2025",
+    "time": "12:00",
+    "location": "Chopp Shop - Rio Vermelho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/dia-de-iemanja-chopp-shop-samba-so-quando-der-e-dj-niti-seletor/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2025/01/Dia-de-Iemanja-Chopp-Shop.jpg"
+  },
+  {
+    "title": "Ao Encontro da Rainha – Lutte, Faustão e convidados",
+    "date": "02/02/2025",
+    "time": "12:00",
+    "location": "ArtMalte Cervejaria Artesanal - Rio Vermelho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/ao-encontro-da-rainha-lutte-faustao-e-convidados/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2025/01/Ao-Encontro-da-Rainha.jpg"
+  },
+  {
+    "title": "Iemanjá na Casa Rosa – Cortejo Afro, Ana Mametto e DJ Zia Satyam",
+    "date": "02/02/2025",
+    "time": "13:00",
+    "location": "Casa Rosa – Rio Vermelho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/iemanja-na-casa-rosa-cortejo-afro-ana-mametto-e-dj-zia-satyam/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2025/01/Iemanja-na-Casa-Rosa.jpeg"
+  },
+  {
+    "title": "Festa Yemanjá e Samba 2025 – Lucas Morato, Terra Samba, Rubynho, No Balanço e Samba Trator",
+    "date": "02/02/2025",
+    "time": "13:00",
+    "location": "Estacionamento da Academia Villa Forma - Rio Vermelho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/festa-yemanja-e-samba-2025-lucas-morato-terra-samba-rubynho-no-balanco-e-samba-trator/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2025/01/Festa-Yemanja-e-Samba-2025.jpg"
+  },
+  {
+    "title": "Enxaguada de Yemanjá – Carlinhos Brown e convidados",
+    "date": "02/02/2025",
+    "time": "16:00",
+    "location": "Vila Caramuru - Rio Vermelho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/enxaguada-de-yemanja-carlinhos-brown-e-convidados/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/11/enxaguada-de-yemanja.jpg"
+  },
+  {
+    "title": "Ensaio do Cortejo Afro",
+    "date": "03/02/2025",
+    "time": "21:00",
+    "location": "Praça das Artes – Pelourinho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/ensaio-do-cortejo-afro-6/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/12/Divulgacao-Cortejo-Afro-12.jpg"
+  },
+  {
+    "title": "Benção do Olodum",
+    "date": "04/02/2025",
+    "time": "20:00",
+    "location": "Praça das Artes – Pelourinho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/bencao-do-olodum-5/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2021/09/olodum.jpg"
+  },
+  {
+    "title": "Ensaios de Verão de Márcia Freire",
+    "date": "07/02/2025",
+    "time": "19:00",
+    "location": "Largo Pedro Archanjo - Pelourinho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/ensaios-de-verao-de-marcia-freire-2/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2022/10/marcia_freire.jpeg"
+  },
+  {
+    "title": "Cajá",
+    "date": "07/02/2025",
+    "time": "20:00",
+    "location": "ABoca Centro de Artes - Santo Antônio",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/caja-5/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/07/festa-caja-semdata.jpeg"
+  },
+  {
+    "title": "Alexandre Leão",
+    "date": "07/02/2025",
+    "time": "22:00",
+    "location": "Varanda do Sesi Rio Vermelho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/alexandre-leao-6/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/09/alexandre-leao.webp"
+  },
+  {
+    "title": "Silva em ‘De Todos os Sons’",
+    "date": "08/02/2025",
+    "time": "16:00",
+    "location": "Chácara Baluarte - Santo Antônio Além do Carmo",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/silva-em-de-todos-os-sons/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/11/Silva_foto-Jorge-Bispo.jpg"
+  },
+  {
+    "title": "Warung Tour – DJs Antdot, D-Nox vs. Zac, Eli Iwasa, Soldera e Victor ALC",
+    "date": "08/02/2025",
+    "time": "16:00",
+    "location": "Casa Pia de São Joaquim - Calçada",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/warung-tour-djs-antdot-d-nox-vs-zac-eli-iwasa-soldera-e-victor-alc/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/12/WARUNG-TOUR-SALVADOR.jpg"
+  },
+  {
+    "title": "Sarau Cultural – Alexandre Karr e Renato Ferraz",
+    "date": "08/02/2025",
+    "time": "21:00",
+    "location": "Varando do Sesi Rio Vermelho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/sarau-cultural/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2025/01/Sarau-Cultural.jpg"
+  },
+  {
+    "title": "Caetano Veloso e Maria Bethânia",
+    "date": "08/02/2025",
+    "time": "21:00",
+    "location": "Arena Fonte Nova",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/caetano-veloso-e-maria-bethania/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/03/caetano-e-maria-bethania.jpg"
+  },
+  {
+    "title": "Feijuca do Bão – Filipe Escandurras",
+    "date": "09/02/2025",
+    "time": "12:00",
+    "location": "Chácara Baluarte - Santo Antônio Além do Carmo",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/feijuca-do-bao-filipe-escandurras/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/12/Filipe-Escandurras-1.jpg"
+  },
+  {
+    "title": "Saulo Fernandes em ‘Saulo Som Sol’",
+    "date": "09/02/2025",
+    "time": "15:00",
+    "location": "Porto de Salvador - Comércio",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/saulo-fernandes-em-saulo-som-sol/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/11/saulo-fernandes-creditos-jardel-souza-1.webp"
+  },
+  {
+    "title": "Timbalada",
+    "date": "09/02/2025",
+    "time": "16:00",
+    "location": "Candyall Guetho Square - Candeal",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/timbalada-4/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/01/Timbalada.webp"
+  },
+  {
+    "title": "Ensaio do Cortejo Afro",
+    "date": "10/02/2025",
+    "time": "21:00",
+    "location": "Praça das Artes – Pelourinho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/ensaio-do-cortejo-afro-5/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/12/Divulgacao-Cortejo-Afro-12.jpg"
+  },
+  {
+    "title": "Benção do Olodum",
+    "date": "11/02/2025",
+    "time": "20:00",
+    "location": "Praça das Artes – Pelourinho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/bencao-do-olodum-6/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2021/09/olodum.jpg"
+  },
+  {
+    "title": "Armandinho, Dodô e Osmar e Convidados em ‘Chame Gente’",
+    "date": "12/02/2025",
+    "time": "19:00",
+    "location": "Concha Acústica do Teatro Castro Alves",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/armandinho-dodo-e-osmar-e-convidados-em-chame-gente/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2025/01/armandinho-chame-gente.jpg"
+  },
+  {
+    "title": "Cajá",
+    "date": "14/02/2025",
+    "time": "20:00",
+    "location": "ABoca Centro de Artes - Santo Antônio",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/caja-6/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/07/festa-caja-semdata.jpeg"
+  },
+  {
+    "title": "Alexandre Leão",
+    "date": "14/02/2025",
+    "time": "22:00",
+    "location": "Varanda do Sesi Rio Vermelho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/alexandre-leao-7/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/09/alexandre-leao.webp"
+  },
+  {
+    "title": "Bloquinho de Villas – Jau , Filhos de Jorge e Água Fresca",
+    "date": "15/02/2025",
+    "time": "20:00",
+    "location": "Armazém Convention - Lauro de Freitas",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/bloquinho-de-villas-jau-filhos-de-jorge-e-agua-fresca/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/12/Bloquinho-de-Villas.jpg"
+  },
+  {
+    "title": "FeiJAUada – Jau, Mudei de Nome e Cortejo Afro",
+    "date": "16/02/2025",
+    "time": "12:00",
+    "location": "Chácara Baluarte - Santo Antônio",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/feijauada-jau-mudei-de-nome-e-cortejo-afro/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/12/FeiJAUada.webp"
+  },
+  {
+    "title": "Melhor Segunda-Feira do Mundo – Xanddy Harmonia e convidados",
+    "date": "17/02/2025",
+    "time": "20:00",
+    "location": "Arena Fonte Nova",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/melhor-segunda-feira-do-mundo/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2023/11/xanddy-harmonia.webp"
+  },
+  {
+    "title": "Ensaio do Cortejo Afro",
+    "date": "17/02/2025",
+    "time": "21:00",
+    "location": "Praça das Artes – Pelourinho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/ensaio-do-cortejo-afro-8/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/12/Divulgacao-Cortejo-Afro-12.jpg"
+  },
+  {
+    "title": "Benção do Olodum",
+    "date": "18/02/2025",
+    "time": "20:00",
+    "location": "Praça das Artes – Pelourinho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/bencao-do-olodum-7/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2021/09/olodum.jpg"
+  },
+  {
+    "title": "Alexandre Leão",
+    "date": "21/02/2025",
+    "time": "22:00",
+    "location": "Varanda do Sesi Rio Vermelho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/alexandre-leao-8/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/09/alexandre-leao.webp"
+  },
+  {
+    "title": "JAM no MAM – Geleia Solar e convidados",
+    "date": "22/02/2025",
+    "time": "18:00",
+    "location": "MAM - Museu de Arte Moderna da Bahia (Solar do Unhão",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/jam-no-mam-geleia-solar-e-convidados-5/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2023/02/Geleia_Solar_na_JAMnoMAM_foto_Ligia_Rizerio-1.jpg"
+  },
+  {
+    "title": "Ensaio do Cortejo Afro",
+    "date": "23/02/2025",
+    "time": "21:00",
+    "location": "Praça das Artes – Pelourinho",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/ensaio-do-cortejo-afro-7/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/12/Divulgacao-Cortejo-Afro-12.jpg"
+  },
+  {
+    "title": "Timbalada",
+    "date": "09/03/2025",
+    "time": "16:00",
+    "location": "Candyall Guetho Square - Candeal",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/timbalada-5/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/01/Timbalada.webp"
+  },
+  {
+    "title": "Gilberto Gil em ‘Tempo Rei’",
+    "date": "15/03/2025",
+    "time": "20:00",
+    "location": "Arena Fonte Nova",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/gilberto-gil-em-tempo-rei/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/08/Gilberto-Gil-em-Tempo-Rei.jpg"
+  },
+  {
+    "title": "Angra em ‘Temple of Shadows’",
+    "date": "23/03/2025",
+    "time": "19:00",
+    "location": "Pupileira - Nazaré",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/angra-em-temple-of-shadows/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/12/Angra-2023-foto-marcos-hermes2.jpg"
+  },
+  {
+    "title": "JAM no MAM – Geleia Solar e convidados",
+    "date": "29/03/2025",
+    "time": "18:00",
+    "location": "MAM - Museu de Arte Moderna da Bahia (Solar do Unhão",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/jam-no-mam-geleia-solar-e-convidados-10/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2023/02/Geleia_Solar_na_JAMnoMAM_foto_Ligia_Rizerio-1.jpg"
+  },
+  {
+    "title": "Liniker em ‘Caju’",
+    "date": "29/03/2025",
+    "time": "19:00",
+    "location": "Concha Acústica do TCA - Centro",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/liniker-em-caju/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/09/liniker.webp"
+  },
+  {
+    "title": "Liniker em ‘Caju’",
+    "date": "30/03/2025",
+    "time": "19:00",
+    "location": "Concha Acústica do TCA - Centro",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/liniker-em-caju-2/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/09/liniker.webp"
+  },
+  {
+    "title": "Liniker em ‘Caju’",
+    "date": "31/03/2025",
+    "time": "19:00",
+    "location": "Concha Acústica do TCA - Centro",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/liniker-em-caju-3/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/09/liniker.webp"
+  },
+  {
+    "title": "Geraldo Azevedo",
+    "date": "12/04/2025",
+    "time": "19:00",
+    "location": "Concha Acústica do TCA",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/geraldo-azevedo/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/12/GERALDO-AZEVEDO-Por-Marcelo-Ribeiro.jpg"
+  },
+  {
+    "title": "Buena Vista Social Orchestra",
+    "date": "13/04/2025",
+    "time": "17:00",
+    "location": "Trapiche Barnabé - Comércio",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/buena-vista-social-orchestra/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/12/Buena-Vista-Social-Orchestra.jpeg"
+  },
+  {
+    "title": "JAM no MAM – Geleia Solar e convidados",
+    "date": "26/04/2025",
+    "time": "18:00",
+    "location": "MAM - Museu de Arte Moderna da Bahia (Solar do Unhão",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/jam-no-mam-geleia-solar-e-convidados-14/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2023/02/Geleia_Solar_na_JAMnoMAM_foto_Ligia_Rizerio-1.jpg"
+  },
+  {
+    "title": "Roupa Nova",
+    "date": "17/05/2025",
+    "time": "19:00",
+    "location": "Concha Acústica - Centro",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/roupa-nova/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2023/04/ROUPA-NOVA-I.png"
+  },
+  {
+    "title": "Festival Sarará",
+    "date": "24/05/2025",
+    "time": "",
+    "location": "Parque das Mangabeiras – Belo Horizonte/MG",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/festival-sarara/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/12/Sarara-2025.jpg"
+  },
+  {
+    "title": "Capital Inicial",
+    "date": "24/05/2025",
+    "time": "19:00",
+    "location": "Concha Acústica do TCA",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/capital-inicial/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2024/11/Capital-Inicial_foto_-Fernando-Schlaepfer-1.jpg"
+  },
+  {
+    "title": "JAM no MAM – Geleia Solar e convidados",
+    "date": "31/05/2025",
+    "time": "18:00",
+    "location": "MAM - Museu de Arte Moderna da Bahia (Solar do Unhão",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/jam-no-mam-geleia-solar-e-convidados-19/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2023/02/Geleia_Solar_na_JAMnoMAM_foto_Ligia_Rizerio-1.jpg"
+  },
+  {
+    "title": "JAM no MAM – Geleia Solar e convidados",
+    "date": "28/06/2025",
+    "time": "18:00",
+    "location": "MAM - Museu de Arte Moderna da Bahia (Solar do Unhão",
+    "type": "El Cabong",
+    "url": "https://elcabong.com.br/event/jam-no-mam-geleia-solar-e-convidados-23/",
+    "imageUrl": "https://elcabong.com.br/wp-content/uploads/2023/02/Geleia_Solar_na_JAMnoMAM_foto_Ligia_Rizerio-1.jpg"
+  },
+  {
+    "title": "Roda de Samba do Botequim - A primeira do ano",
+    "date": "Sexta, 10 de Jan",
+    "time": "21:00",
+    "location": "Pátio da Igreja do Santo Antônio Além do Carmo - Salvador, BA",
+    "type": "Sympla",
+    "url": "https://www.sympla.com.br/evento/roda-de-samba-do-botequim-a-primeira-do-ano/2778095",
+    "imageUrl": "https://images.sympla.com.br/67682f1be9f13-xs.png"
+  },
+  {
+    "title": "O Baile do Rasta - Lançamento audiovisual Jeremias Gomes",
+    "date": "Sábado, 18 de Jan",
+    "time": "18:00",
+    "location": "Concha Acústica - Salvador, BA",
+    "type": "Sympla"
+  },
+  {
+    "title": "RACHEL REIS E CONVIDADOS - CANTO DA SEREIONA",
+    "date": "Sábado, 01 de Fev",
+    "time": "17:30",
+    "location": "Museu de Arte Moderna da Bahia - MAM - Salvador, BA",
+    "type": "Sympla",
+    "url": "https://www.sympla.com.br/evento/rachel-reis-e-convidados-canto-da-sereiona/2775848",
+    "imageUrl": "https://images.sympla.com.br/67643c783faba-xs.jpg"
+  },
+  {
+    "title": "Terreiro de Crioulo Salvador - Saudando Iemanjá",
+    "date": "Sábado, 01 de Fev",
+    "time": "13:00",
+    "location": "Clube Fantoches da Euterpe - Salvador, BA",
+    "type": "Sympla",
+    "url": "https://www.sympla.com.br/evento/terreiro-de-crioulo-salvador-saudando-iemanja/2778726",
+    "imageUrl": "https://images.sympla.com.br/6769bb92ce623-xs.png"
+  },
+  {
+    "title": "ROLLING STONE BRASIL 18 ANOS APRESENTA: SEU JORGE",
+    "date": "Sexta, 17 de Jan",
+    "time": "19:00",
+    "location": "Concha Acústica - Salvador, BA",
+    "type": "Sympla"
+  },
+  {
+    "title": "Bloco do Eu Sozinho em Salvador/BA",
+    "date": "Sábado, 11 de Jan",
+    "time": "21:00",
+    "location": "30 Segundos Bar - Salvador, BA",
+    "type": "Sympla",
+    "url": "https://www.sympla.com.br/evento/bloco-do-eu-sozinho-em-salvador-ba/2721801",
+    "imageUrl": "https://images.sympla.com.br/672a21e47beea-xs.jpg"
+  },
+  {
+    "title": "ÜMBALA ~ S25",
+    "date": "Domingo, 12 de Jan",
+    "time": "13:00",
+    "location": "Terê Gastrobar Salvador - Salvador, BA",
+    "type": "Sympla",
+    "url": "https://www.sympla.com.br/evento/umbala-s25/2777272",
+    "imageUrl": "https://images.sympla.com.br/677c54c60e472-xs.jpg"
+  },
+  {
+    "title": "Ensaio Aberto do Bloquinho das Irenes",
+    "date": "Sexta, 10 de Jan",
+    "time": "19:00",
+    "location": "Aconchego da Zuzu - Salvador, BA",
+    "type": "Sympla",
+    "url": "https://www.sympla.com.br/evento/ensaio-aberto-do-bloquinho-das-irenes/2774487",
+    "imageUrl": "https://images.sympla.com.br/6777e2b00507b-xs.jpg"
+  },
+  {
+    "title": "Resenha do Chininha",
+    "date": "Sábado, 18 de Jan",
+    "time": "19:00",
+    "location": "Churrasquinho Do Joba - Salvador, BA",
+    "type": "Sympla",
+    "url": "https://www.sympla.com.br/evento/resenha-do-chininha/2760318",
+    "imageUrl": "https://images.sympla.com.br/674f74a9229f8-xs.jpg"
+  },
+  {
+    "title": "Baile Noite Preta – Dão Black e Ilê Aiyê",
+    "date": "Sexta, 17 de Jan",
+    "time": "22:00",
+    "location": "Casa Rosa - Salvador, BA",
+    "type": "Sympla"
+  },
+  {
+    "title": "Pra Sempre Cringe | Salvador",
+    "date": "Sexta, 31 de Jan",
+    "time": "21:00",
+    "location": "30 Segundos Bar - Salvador, BA",
+    "type": "Sympla",
+    "url": "https://www.sympla.com.br/evento/pra-sempre-cringe-salvador/2783572",
+    "imageUrl": "https://images.sympla.com.br/6772ddb92d84f-xs.jpg"
+  },
+  {
+    "title": "SUCO DE BAHIA - A BAHIA É O MUNDO | 2025",
+    "date": "Sábado, 18 de Jan",
+    "time": "19:30",
+    "location": "Cerimonial Conceição da Praia - Salvador, BA",
+    "type": "Sympla",
+    "url": "https://www.sympla.com.br/evento/suco-de-bahia-a-bahia-e-o-mundo-2025/2785165",
+    "imageUrl": "https://images.sympla.com.br/6776fdfbebb69-xs.png"
+  },
+  {
+    "title": "WARUNG TOUR SALVADOR",
+    "date": "Sábado, 08 de Fev",
+    "time": "16:00",
+    "location": "Casa Pia de São Joaquim - Salvador, BA",
+    "type": "Sympla",
+    "url": "https://www.sympla.com.br/evento/warung-tour-salvador/2776222",
+    "imageUrl": "https://images.sympla.com.br/67648183c36c8-xs.jpg"
+  },
+  {
+    "title": "DANCETERIA 80 com FAUSTÃO e RETR80",
+    "date": "Sexta, 17 de Jan",
+    "time": "21:00",
+    "location": "The Green House Music - Salvador, BA",
+    "type": "Sympla",
+    "url": "https://www.sympla.com.br/evento/danceteria-80-com-faustao-e-retr80/2785125",
+    "imageUrl": "https://images.sympla.com.br/6776f47b38f70-xs.jpg"
+  },
+  {
+    "title": "SAMBA DO SETOR",
+    "date": "Domingo, 12 de Jan",
+    "time": "14:00",
+    "location": "SAMBA DO SETOR - Salvador, BA",
+    "type": "Sympla",
+    "url": "https://www.sympla.com.br/evento/samba-do-setor/2785259",
+    "imageUrl": "https://images.sympla.com.br/677739f88c5bc-xs.png"
+  },
+  {
+    "title": "Paquito - Voltei a cantar",
+    "date": "Terça, 28 de Jan",
+    "time": "20:00",
+    "location": "SALA DO CORO - Salvador, BA",
+    "type": "Sympla"
+  },
+  {
+    "title": "Fragmentos de Amor",
+    "date": "Sábado, 18 de Jan",
+    "time": "17:00",
+    "location": "Casa de Castro Alves - Salvador, BA",
+    "type": "Sympla",
+    "url": "https://www.sympla.com.br/evento/fragmentos-de-amor/2778345",
+    "imageUrl": "https://images.sympla.com.br/67768d1e4d850-xs.png"
+  },
+  {
+    "title": "Samba da Barca \"No Quintal de Casa\" Edição 2.0",
+    "date": "Domingo, 19 de Jan",
+    "time": "10:00",
+    "location": "CEIFAR  - Salvador, BA",
+    "type": "Sympla",
+    "url": "https://www.sympla.com.br/evento/samba-da-barca-no-quintal-de-casa-edicao-2-0/2775622",
+    "imageUrl": "https://images.sympla.com.br/6764103e8666d-xs.jpg"
+  },
+  {
+    "title": "Noite de Iemanjá 2025",
+    "date": "Sábado, 01 de Fev",
+    "time": "20:00",
+    "location": "Hotel Fasano Salvador - Salvador, BA",
+    "type": "Sympla",
+    "url": "https://www.sympla.com.br/evento/noite-de-iemanja-2025/2746187",
+    "imageUrl": "https://images.sympla.com.br/6745ea9b0c28e-xs.jpg"
+  },
+  {
+    "title": "Baile Funk 2000",
+    "date": "Sexta, 10 de Jan",
+    "time": "22:00",
+    "location": "Casa da Felicidade Arte & Música & Gastronomia - Salvador, BA",
+    "type": "Sympla",
+    "url": "https://www.sympla.com.br/evento/baile-funk-2000/2778103",
+    "imageUrl": "https://images.sympla.com.br/6768407318752-xs.jpg"
+  },
+  {
+    "title": "FESTA DOS PROBLEMATICOS",
+    "date": "Sábado, 18 de Jan",
+    "time": "13:00",
+    "location": "Local a definir - Salvador, BA",
+    "type": "Sympla",
+    "url": "https://www.sympla.com.br/evento/festa-dos-problematicos/2736570",
+    "imageUrl": "https://images.sympla.com.br/67717b9191504-xs.jpg"
+  },
+  {
+    "title": "QUARTA - QUARTA COM K",
+    "date": "16 de Dez a 31 de Dez",
+    "time": "",
+    "location": "Boteco do Paulista - BAR NO RIO VERMELHO ️‍ - Salvador, BA",
+    "type": "Sympla",
+    "url": "https://www.sympla.com.br/evento/quarta-quarta-com-k/2659049",
+    "imageUrl": "https://images.sympla.com.br/66f612b08599b-xs.png"
+  },
+  {
+    "title": "BAILINHO - RESENHA DA LAJE - VISTA BAÍA",
+    "date": "Sexta, 17 de Jan",
+    "time": "21:00",
+    "location": "Vista Baía - Salvador, BA",
+    "type": "Sympla",
+    "url": "https://www.sympla.com.br/evento/bailinho-resenha-da-laje-vista-baia/2786549",
+    "imageUrl": "https://images.sympla.com.br/6779966a6fe01-xs.png"
+  },
+  {
+    "title": "Sambàṣẹ",
+    "date": "Domingo, 26 de Jan",
+    "time": "15:00",
+    "location": "Batatinha Bar e Restaurante - Salvador, BA",
+    "type": "Sympla",
+    "url": "https://www.sympla.com.br/evento/sambase/2783347",
+    "imageUrl": "https://images.sympla.com.br/6772a8c606b57-xs.png"
+  },
+  {
+    "title": "Meus Amigos Estão Velhos + Miguel e Os Futuríveis",
+    "date": "Sábado, 18 de Jan",
+    "time": "21:00",
+    "location": "Colaboraê - Salvador, BA",
+    "type": "Sympla",
+    "url": "https://www.sympla.com.br/evento/meus-amigos-estao-velhos-miguel-e-os-futuriveis/2781601",
+    "imageUrl": "https://images.sympla.com.br/676f1ef8b2b5c-xs.jpg"
+  },
+  {
+    "title": "A Voz e o Violão com Rafael Pondé",
+    "date": "Sábado, 01 de Fev",
+    "time": "17:00",
+    "location": "Teatro Gamboa - Salvador, BA",
+    "type": "Sympla",
+    "url": "https://www.sympla.com.br/evento/a-voz-e-o-violao-com-rafael-ponde/2780957",
+    "imageUrl": "https://images.sympla.com.br/676eb6ef41360-xs.jpg"
+  },
+  {
+    "title": "AxéRecudas 2025 - COMPRE NO ESCURO",
+    "date": "Quarta, 26 de Fev",
+    "time": "19:00",
+    "location": "Carnaval de Salvador - Salvador, BA",
+    "type": "Sympla",
+    "url": "https://www.sympla.com.br/evento/axerecudas-2025-compre-no-escuro/2775054",
+    "imageUrl": "https://images.sympla.com.br/676322c834d6a-xs.jpg"
+  },
+  {
+    "title": "Samba da BlogueraSSA Edição Verão",
+    "date": "Sábado, 18 de Jan",
+    "time": "16:00",
+    "location": "Praia do Flamengo - Salvador , BA",
+    "type": "Sympla",
+    "url": "https://www.sympla.com.br/evento/samba-da-bloguerassa-edicao-verao/2787960",
+    "imageUrl": "https://images.sympla.com.br/677c201690774-xs.png"
+  },
+  {
+    "title": "GAMADINHO CONVIDA",
+    "date": "Sábado, 15 de Fev",
+    "time": "20:00",
+    "location": "Caranguejo do Baiano - Boa Viagem - Salvador, BA",
+    "type": "Sympla",
+    "url": "https://www.sympla.com.br/evento/gamadinho-convida/2788397",
+    "imageUrl": "https://images.sympla.com.br/677c6743a4d19-xs.png"
+  },
+  {
+    "title": "BOGOTÁ - DIVAS LATINAS / 5 HORAS DE OPEN BAR / AMS / SALVADOR - BA",
+    "date": "Sexta, 24 de Jan",
+    "time": "22:00",
+    "location": "Amsterdam Rio Vermelho - Salvador, BA",
+    "type": "Sympla",
+    "url": "https://www.sympla.com.br/evento/bogota-divas-latinas-5-horas-de-open-bar-ams-salvador-ba/2789479",
+    "imageUrl": "https://images.sympla.com.br/677da9ba800bc-xs.jpg"
+  },
+  {
+    "title": "Feijoada da Sara",
+    "date": "Domingo, 26 de Jan",
+    "time": "12:30",
+    "location": "ADELBA - Salvador, BA",
+    "type": "Sympla",
+    "url": "https://www.sympla.com.br/evento/feijoada-da-sara/2781785",
+    "imageUrl": "https://images.sympla.com.br/677db6d0e4a30-xs.jpg"
+  },
+  {
+    "title": "Domingo de Verão",
+    "date": "Domingo, 12 de Jan",
+    "time": "16:00",
+    "location": "Espaço do Siri - Salvador, BA",
+    "type": "Sympla",
+    "url": "https://www.sympla.com.br/evento/domingo-de-verao/2789051",
+    "imageUrl": "https://images.sympla.com.br/677d518ae3703-xs.jpg"
+  },
+  {
+    "title": "Fragmentos de Amor",
+    "date": "Sábado, 18 de Jan",
+    "time": "17:00",
+    "location": "Casa de Castro Alves - Salvador, BA",
+    "type": "Sympla",
+    "url": "https://www.sympla.com.br/evento/fragmentos-de-amor/2778345",
+    "imageUrl": "https://images.sympla.com.br/67768d1e4d850-xs.png"
+  },
+  {
+    "title": "Samba da Barca \"No Quintal de Casa\" Edição 2.0",
+    "date": "Domingo, 19 de Jan",
+    "time": "10:00",
+    "location": "CEIFAR  - Salvador, BA",
+    "type": "Sympla",
+    "url": "https://www.sympla.com.br/evento/samba-da-barca-no-quintal-de-casa-edicao-2-0/2775622",
+    "imageUrl": "https://images.sympla.com.br/6764103e8666d-xs.jpg"
+  },
+  {
+    "title": "Noite de Iemanjá 2025",
+    "date": "Sábado, 01 de Fev",
+    "time": "20:00",
+    "location": "Hotel Fasano Salvador - Salvador, BA",
+    "type": "Sympla",
+    "url": "https://www.sympla.com.br/evento/noite-de-iemanja-2025/2746187",
+    "imageUrl": "https://images.sympla.com.br/6745ea9b0c28e-xs.jpg"
+  },
+  {
+    "title": "Baile Funk 2000",
+    "date": "Sexta, 10 de Jan",
+    "time": "22:00",
+    "location": "Casa da Felicidade Arte & Música & Gastronomia - Salvador, BA",
+    "type": "Sympla",
+    "url": "https://www.sympla.com.br/evento/baile-funk-2000/2778103",
+    "imageUrl": "https://images.sympla.com.br/6768407318752-xs.jpg"
+  },
+  {
+    "title": "FESTA DOS PROBLEMATICOS",
+    "date": "Sábado, 18 de Jan",
+    "time": "13:00",
+    "location": "Local a definir - Salvador, BA",
+    "type": "Sympla",
+    "url": "https://www.sympla.com.br/evento/festa-dos-problematicos/2736570",
+    "imageUrl": "https://images.sympla.com.br/67717b9191504-xs.jpg"
+  },
+  {
+    "title": "QUARTA - QUARTA COM K",
+    "date": "16 de Dez a 31 de Dez",
+    "time": "",
+    "location": "Boteco do Paulista - BAR NO RIO VERMELHO ️‍ - Salvador, BA",
+    "type": "Sympla",
+    "url": "https://www.sympla.com.br/evento/quarta-quarta-com-k/2659049",
+    "imageUrl": "https://images.sympla.com.br/66f612b08599b-xs.png"
+  },
+  {
+    "title": "BAILINHO - RESENHA DA LAJE - VISTA BAÍA",
+    "date": "Sexta, 17 de Jan",
+    "time": "21:00",
+    "location": "Vista Baía - Salvador, BA",
+    "type": "Sympla",
+    "url": "https://www.sympla.com.br/evento/bailinho-resenha-da-laje-vista-baia/2786549",
+    "imageUrl": "https://images.sympla.com.br/6779966a6fe01-xs.png"
+  },
+  {
+    "title": "Sambàṣẹ",
+    "date": "Domingo, 26 de Jan",
+    "time": "15:00",
+    "location": "Batatinha Bar e Restaurante - Salvador, BA",
+    "type": "Sympla",
+    "url": "https://www.sympla.com.br/evento/sambase/2783347",
+    "imageUrl": "https://images.sympla.com.br/6772a8c606b57-xs.png"
+  },
+  {
+    "title": "Meus Amigos Estão Velhos + Miguel e Os Futuríveis",
+    "date": "Sábado, 18 de Jan",
+    "time": "21:00",
+    "location": "Colaboraê - Salvador, BA",
+    "type": "Sympla",
+    "url": "https://www.sympla.com.br/evento/meus-amigos-estao-velhos-miguel-e-os-futuriveis/2781601",
+    "imageUrl": "https://images.sympla.com.br/676f1ef8b2b5c-xs.jpg"
+  },
+  {
+    "title": "A Voz e o Violão com Rafael Pondé",
+    "date": "Sábado, 01 de Fev",
+    "time": "17:00",
+    "location": "Teatro Gamboa - Salvador, BA",
+    "type": "Sympla",
+    "url": "https://www.sympla.com.br/evento/a-voz-e-o-violao-com-rafael-ponde/2780957",
+    "imageUrl": "https://images.sympla.com.br/676eb6ef41360-xs.jpg"
+  },
+  {
+    "title": "AxéRecudas 2025 - COMPRE NO ESCURO",
+    "date": "Quarta, 26 de Fev",
+    "time": "19:00",
+    "location": "Carnaval de Salvador - Salvador, BA",
+    "type": "Sympla",
+    "url": "https://www.sympla.com.br/evento/axerecudas-2025-compre-no-escuro/2775054",
+    "imageUrl": "https://images.sympla.com.br/676322c834d6a-xs.jpg"
+  },
+  {
+    "title": "Samba da BlogueraSSA Edição Verão",
+    "date": "Sábado, 18 de Jan",
+    "time": "16:00",
+    "location": "Praia do Flamengo - Salvador , BA",
+    "type": "Sympla",
+    "url": "https://www.sympla.com.br/evento/samba-da-bloguerassa-edicao-verao/2787960",
+    "imageUrl": "https://images.sympla.com.br/677c201690774-xs.png"
+  },
+  {
+    "title": "GAMADINHO CONVIDA",
+    "date": "Sábado, 15 de Fev",
+    "time": "20:00",
+    "location": "Caranguejo do Baiano - Boa Viagem - Salvador, BA",
+    "type": "Sympla",
+    "url": "https://www.sympla.com.br/evento/gamadinho-convida/2788397",
+    "imageUrl": "https://images.sympla.com.br/677c6743a4d19-xs.png"
+  },
+  {
+    "title": "BOGOTÁ - DIVAS LATINAS / 5 HORAS DE OPEN BAR / AMS / SALVADOR - BA",
+    "date": "Sexta, 24 de Jan",
+    "time": "22:00",
+    "location": "Amsterdam Rio Vermelho - Salvador, BA",
+    "type": "Sympla",
+    "url": "https://www.sympla.com.br/evento/bogota-divas-latinas-5-horas-de-open-bar-ams-salvador-ba/2789479",
+    "imageUrl": "https://images.sympla.com.br/677da9ba800bc-xs.jpg"
+  },
+  {
+    "title": "Feijoada da Sara",
+    "date": "Domingo, 26 de Jan",
+    "time": "12:30",
+    "location": "ADELBA - Salvador, BA",
+    "type": "Sympla",
+    "url": "https://www.sympla.com.br/evento/feijoada-da-sara/2781785",
+    "imageUrl": "https://images.sympla.com.br/677db6d0e4a30-xs.jpg"
+  },
+  {
+    "title": "Domingo de Verão",
+    "date": "Domingo, 12 de Jan",
+    "time": "16:00",
+    "location": "Espaço do Siri - Salvador, BA",
+    "type": "Sympla",
+    "url": "https://www.sympla.com.br/evento/domingo-de-verao/2789051",
+    "imageUrl": "https://images.sympla.com.br/677d518ae3703-xs.jpg"
+  },
+  {
+    "title": "A PRIMEIRA RODA DE SAMBA DO ANO",
+    "date": "Sexta, 10 de Jan",
+    "time": "19:00",
+    "location": "Vista baía  - Salvador, BA",
+    "type": "Sympla",
+    "url": "https://www.sympla.com.br/evento/a-primeira-roda-de-samba-do-ano/2780199",
+    "imageUrl": "https://images.sympla.com.br/676dad748a5b2-xs.jpg"
+  },
+  {
+    "title": "PAGOGIN",
+    "date": "Domingo, 26 de Jan",
+    "time": "17:00",
+    "location": "Allê Varanda Bar - Salvador, BA",
+    "type": "Sympla",
+    "url": "https://www.sympla.com.br/evento/pagogin/2753248",
+    "imageUrl": "https://images.sympla.com.br/6748daaa2996a-xs.png"
+  },
+  {
+    "title": "Verão 40 - A Primeira Parada da Melhor Temporada",
+    "date": "Sábado, 11 de Jan",
+    "time": "15:30",
+    "location": "Terê Gastrobar Salvador - Salvador, BA",
+    "type": "Sympla",
+    "url": "https://www.sympla.com.br/evento/verao-40-a-primeira-parada-da-melhor-temporada/2775879",
+    "imageUrl": "https://images.sympla.com.br/6765c1180e1fb-xs.jpg"
+  },
+  {
+    "title": "Esquenta Pranchão de Salvador",
+    "date": "Sexta, 10 de Jan",
+    "time": "21:00",
+    "location": "Rua Miguel Navarro Y Cañizares, 234 - Salvador, BA",
+    "type": "Sympla",
+    "url": "https://www.sympla.com.br/evento/esquenta-pranchao-de-salvador/2784345",
+    "imageUrl": "https://images.sympla.com.br/677483f719d8f-xs.png"
+  },
+  {
+    "title": "You Can Dance - Edição Salvador",
+    "date": "Sábado, 11 de Jan",
+    "time": "21:00",
+    "location": "Casa da Felicidade Arte & Música & Gastronomia - Salvador, BA",
+    "type": "Sympla",
+    "url": "https://www.sympla.com.br/evento/you-can-dance-edicao-salvador/2765741",
+    "imageUrl": "https://images.sympla.com.br/675753c470f3d-xs.jpg"
+  },
+  {
+    "title": "QUINTA - QUINTA CREMOSA / QUINTA MEELS",
+    "date": "16 de Dez a 31 de Dez",
+    "time": "",
+    "location": "Boteco do Paulista - BAR NO RIO VERMELHO ️‍ - Salvador, BA",
+    "type": "Sympla",
+    "url": "https://www.sympla.com.br/evento/quinta-quinta-cremosa-quinta-meels/2610457",
+    "imageUrl": "https://images.sympla.com.br/66cf2032818d4-xs.jpg"
+  },
+  {
+    "title": "Sambàṣẹ",
+    "date": "Sexta, 10 de Jan",
+    "time": "18:00",
+    "location": "Casa da Felicidade Barra - Salvador, BA",
+    "type": "Sympla",
+    "url": "https://www.sympla.com.br/evento/sambase/2779877",
+    "imageUrl": "https://images.sympla.com.br/676d725f76c97-xs.png"
+  },
+  {
+    "title": "BAILE CHARME SALVADOR - ESPECIAL CHRIS BROWN",
+    "date": "Sábado, 25 de Jan",
+    "time": "21:00",
+    "location": "Santo Beco - Bar e Petiscaria  - Salvador, BA",
+    "type": "Sympla",
+    "url": "https://www.sympla.com.br/evento/baile-charme-salvador-especial-chris-brown/2778621",
+    "imageUrl": "https://images.sympla.com.br/6769a0ba40175-xs.jpg"
+  },
+  {
+    "title": "LAVAGEM DA ADELBA 2025",
+    "date": "Domingo, 16 de Fev",
+    "time": "11:00",
+    "location": "Av. Tamburugy, sn - Salvador, BA",
+    "type": "Sympla",
+    "url": "https://www.sympla.com.br/evento/lavagem-da-adelba-2025/2735999",
+    "imageUrl": "https://images.sympla.com.br/67362b19e76e6-xs.jpg"
+  },
+  {
+    "title": "14 BIS Esquina Convida",
+    "date": "Sábado, 11 de Jan",
+    "time": "20:00",
+    "location": "Pupileira - Salvador, BA",
+    "type": "Sympla"
+  },
+  {
+    "title": "CAMAROTE GLAMOUR SALVADOR",
+    "date": "27 de Fev a 04 de Mar",
+    "time": "",
+    "location": "Centro Espanhol - Salvador, BA",
+    "type": "Sympla",
+    "url": "https://www.sympla.com.br/evento/camarote-glamour-salvador/2712582",
+    "imageUrl": "https://images.sympla.com.br/672148e94daea-xs.jpg"
+  },
+  {
+    "title": "Samba de Dom",
+    "date": "Sexta, 10 de Jan",
+    "time": "19:00",
+    "location": "Casa di Rosa Feijoada e Afins - Salvador, BA",
+    "type": "Sympla",
+    "url": "https://www.sympla.com.br/evento/samba-de-dom/2783264",
+    "imageUrl": "https://images.sympla.com.br/6772a7f52ffaf-xs.jpg"
+  },
+  {
+    "title": "NOSSO SAMBA",
+    "date": "Sábado, 25 de Jan",
+    "time": "18:00",
+    "location": "Arena Beach Salvador - Salvador, BA",
+    "type": "Sympla",
+    "url": "https://www.sympla.com.br/evento/nosso-samba/2789211",
+    "imageUrl": "https://images.sympla.com.br/677d6dfb84f40-xs.jpg"
+  },
+  {
+    "title": "ROCKNBEATS - MULHER VIADO // 5 HORAS DE OPEN NA AMS",
+    "date": "Sexta, 24 de Jan",
+    "time": "22:00",
+    "location": "Amsterdam Rio Vermelho - Salvador, BA",
+    "type": "Sympla",
+    "url": "https://www.sympla.com.br/evento/rocknbeats-mulher-viado-5-horas-de-open-na-ams/2784932",
+    "imageUrl": "https://images.sympla.com.br/6776db9d875f5-xs.jpg"
+  },
+  {
+    "title": "CAMAROTE CABANA DA BARRA 2025",
+    "date": "27 de Fev a 04 de Mar",
+    "time": "",
+    "location": "CLUBE NAVAL CABANA DA BARRA - Salvador, BA",
+    "type": "Sympla",
+    "url": "https://www.sympla.com.br/evento/camarote-cabana-da-barra-2025/2715583",
+    "imageUrl": "https://images.sympla.com.br/6723820b79674-xs.jpg"
+  },
+  {
+    "title": "VIVA O SAMBA",
+    "date": "Sexta, 17 de Jan",
+    "time": "18:00",
+    "location": "Praça das Artes - Salvador, BA",
+    "type": "Sympla",
+    "url": "https://www.sympla.com.br/evento/viva-o-samba/2780241",
+    "imageUrl": "https://images.sympla.com.br/676db45def273-xs.png"
+  }
+]
