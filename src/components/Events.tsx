@@ -10,7 +10,6 @@ interface Event {
   imageUrl?: string;
 }
 
-
 interface EventsProps {
   searchTerm: string;
 }
@@ -57,13 +56,14 @@ export default function Events({ searchTerm }: EventsProps) {
         const data = await response.json();
         console.log('Google Sheets API response:', data);
         
-        if (!data.values) {
+        if (!data?.values) {
+          console.error('Invalid sheet data format:', data);
           throw new Error('Invalid sheet data format');
         }
         
         const rows = data.values.slice(1); // Skip header row
         const formattedEvents: Event[] = rows
-          .filter(row => row.length >= 7) // Ensure we have all required columns
+          .filter(row => row?.length >= 7) // Ensure we have all required columns
           .map((row: string[]) => {
             // Ensure all required fields are present and properly typed
             const event = {
@@ -75,22 +75,10 @@ export default function Events({ searchTerm }: EventsProps) {
               url: row[5] ?? '',
               imageUrl: row[6] ?? ''
             };
-            // Explicit type assertion
             return event as Event;
           });
         
         console.log('Formatted events:', formattedEvents);
-        
-        // Write to local JSON file
-        const jsonData = JSON.stringify(formattedEvents, null, 2);
-        console.log('Writing data to local JSON file...');
-        await fetch('/api/write-events', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: jsonData,
-        });
         
         // Get today's date at midnight for comparison
         const today = new Date();
@@ -132,6 +120,7 @@ export default function Events({ searchTerm }: EventsProps) {
           setEvents(filteredAndSortedLocal);
         } catch (localError) {
           console.error('Error loading local events:', localError);
+          setEvents([]);
         }
       } finally {
         setLoading(false);
@@ -145,14 +134,16 @@ export default function Events({ searchTerm }: EventsProps) {
     return <div>Loading events...</div>;
   }
 
-  const filteredEvents = events.filter(event => {
-    const searchLower = searchTerm.toLowerCase();
-    return (
-      event.title.toLowerCase().includes(searchLower) ||
-      event.location.toLowerCase().includes(searchLower) ||
-      event.type.toLowerCase().includes(searchLower)
-    );
-  });
+  const filteredEvents = events
+    .filter(event => event && event.title && event.location && event.type)
+    .filter(event => {
+      const searchLower = searchTerm.toLowerCase();
+      return (
+        event.title.toLowerCase().includes(searchLower) ||
+        event.location.toLowerCase().includes(searchLower) ||
+        event.type.toLowerCase().includes(searchLower)
+      );
+    });
 
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
