@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { ListBulletIcon, Squares2X2Icon } from '@heroicons/react/24/outline';
 
 interface Event {
   title: string;
@@ -17,6 +18,7 @@ interface EventsProps {
 export default function Events({ searchTerm }: EventsProps) {
   const [events, setEvents] = useState<Event[]>([]);
   const [loading, setLoading] = useState(true);
+  const [isListView, setIsListView] = useState(false);
 
   // Helper function to parse both date formats
   const parseDate = (dateStr: string) => {
@@ -151,32 +153,79 @@ export default function Events({ searchTerm }: EventsProps) {
     });
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
-      {filteredEvents.map((event, index) => (
-        <a 
-          key={index}
-          href={event.url}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="block bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-200"
+    <div>
+      <div className="flex justify-end p-4">
+        <button
+          onClick={() => setIsListView(!isListView)}
+          className="p-2 rounded-full hover:bg-gray-100 transition-colors"
+          title={isListView ? "Switch to grid view" : "Switch to list view"}
         >
-          {event.imageUrl && (
-            <img 
-              src={event.imageUrl} 
-              alt={event.title}
-              className="w-full h-48 object-cover"
-            />
+          {isListView ? (
+            <Squares2X2Icon className="w-6 h-6" />
+          ) : (
+            <ListBulletIcon className="w-6 h-6" />
           )}
-          <div className="p-4">
-            <h2 className="text-xl font-bold mb-2">{event.title}</h2>
-            <p className="text-gray-600 mb-2">
-              {event.date} | {event.time}
-            </p>
-            <p className="text-gray-600 mb-2">{event.location}</p>
-            <p className="text-sm text-gray-500 mb-4">{event.type}</p>
-          </div>
-        </a>
-      ))}
+        </button>
+      </div>
+
+      {isListView ? (
+        <div className="space-y-4 p-4">
+          {filteredEvents.map((event, index) => (
+            <a
+              key={index}
+              href={event.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200"
+            >
+              <div className="flex items-center space-x-4">
+                {event.imageUrl && (
+                  <img
+                    src={event.imageUrl}
+                    alt={event.title}
+                    className="w-24 h-24 object-cover rounded-lg"
+                  />
+                )}
+                <div className="flex-1">
+                  <h2 className="text-xl font-bold">{event.title}</h2>
+                  <p className="text-gray-600">
+                    {event.date} | {event.time} | {event.location}
+                  </p>
+                  <p className="text-sm text-gray-500">{event.type}</p>
+                </div>
+              </div>
+            </a>
+          ))}
+        </div>
+      ) : (
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
+          {filteredEvents.map((event, index) => (
+            <a 
+              key={index}
+              href={event.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-200"
+            >
+              {event.imageUrl && (
+                <img 
+                  src={event.imageUrl} 
+                  alt={event.title}
+                  className="w-full h-48 object-cover"
+                />
+              )}
+              <div className="p-4">
+                <h2 className="text-xl font-bold mb-2">{event.title}</h2>
+                <p className="text-gray-600 mb-2">
+                  {event.date} | {event.time}
+                </p>
+                <p className="text-gray-600 mb-2">{event.location}</p>
+                <p className="text-sm text-gray-500 mb-4">{event.type}</p>
+              </div>
+            </a>
+          ))}
+        </div>
+      )}
     </div>
   );
 }

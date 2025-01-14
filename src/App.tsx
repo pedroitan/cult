@@ -25,7 +25,7 @@ function App() {
       </div>
 
       {/* Events Component */}
-      <Events />
+      <Events searchTerm={searchTerm} />
     </div>
   );
 }

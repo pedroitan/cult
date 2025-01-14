@@ -51,20 +51,23 @@ async function fetchEvents() {
     formattedEvents.sort((a, b) => {
       const parseDate = (dateString: string) => {
         const parts = dateString.split(' - ')[0].split(', ');
+        let date: Date;
         if (parts.length > 1) {
           // Handle format like "Sexta, 10 de Jan"
           const [day, month] = parts[1].split(' de ');
           const year = '2025'; // Assuming the year is always 2025 for this dataset
-          return new Date(`${month} ${day}, ${year}`).getTime();
+          date = new Date(`${month} ${day}, ${year}`);
         } else {
           // Handle format like "07/01/2025"
           const [day, month, year] = dateString.split('/');
-          return new Date(`${year}-${month}-${day}`).getTime();
+          date = new Date(`${year}-${month}-${day}`);
         }
+        return date.getTime();
       };
 
       return parseDate(a.date) - parseDate(b.date);
     });
+
     console.log('Sorted events:', formattedEvents);
     
     // Write to local JSON file
