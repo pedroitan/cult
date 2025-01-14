@@ -153,7 +153,13 @@ export default function Events({ searchTerm }: EventsProps) {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
       {filteredEvents.map((event, index) => (
-        <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden">
+        <a 
+          key={index}
+          href={event.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-200"
+        >
           {event.imageUrl && (
             <img 
               src={event.imageUrl} 
@@ -168,16 +174,8 @@ export default function Events({ searchTerm }: EventsProps) {
             </p>
             <p className="text-gray-600 mb-2">{event.location}</p>
             <p className="text-sm text-gray-500 mb-4">{event.type}</p>
-            <a
-              href={event.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
-            >
-              More Info
-            </a>
           </div>
-        </div>
+        </a>
       ))}
     </div>
   );
