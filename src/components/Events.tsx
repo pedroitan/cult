@@ -57,8 +57,13 @@ export default function Events({ searchTerm }: EventsProps) {
         console.log('Google Sheets API response:', data);
         
         if (!data?.values) {
-          console.error('Invalid sheet data format:', data);
-          throw new Error('Invalid sheet data format');
+          console.error('Invalid sheet data format:', {
+            response: data,
+            status: response.status,
+            statusText: response.statusText,
+            url: response.url
+          });
+          throw new Error(`Invalid sheet data format: ${response.status} ${response.statusText}`);
         }
         
         const rows = data.values.slice(1); // Skip header row
