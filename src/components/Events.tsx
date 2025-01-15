@@ -18,7 +18,7 @@ interface EventsProps {
 export default function Events({ searchTerm }: EventsProps) {
   const [events, setEvents] = useState<Event[]>([]);
   const [loading, setLoading] = useState(true);
-  const [isListView, setIsListView] = useState(false);
+  const [viewMode, setViewMode] = useState<'list' | 'grid' | 'compact'>('grid');
 
   // Helper function to parse both date formats
   const parseDate = (dateStr: string) => {
@@ -48,7 +48,7 @@ export default function Events({ searchTerm }: EventsProps) {
       try {
         console.log('Fetching data from Google Sheets...');
         const sheetId = '1184qmC-7mpZtpg15R--il4K3tVxSTAcJUZxpWf9KFAs';
-        const sheetName = 'Sheet1';
+        const sheetName = 'Página2';
         const apiKey = import.meta.env.VITE_GOOGLE_SHEETS_API_KEY;
         
         const response = await fetch(
@@ -155,20 +155,43 @@ export default function Events({ searchTerm }: EventsProps) {
   return (
     <div>
       <div className="flex justify-end p-4">
-        <button
-          onClick={() => setIsListView(!isListView)}
-          className="p-2 rounded-full hover:bg-gray-100 transition-colors"
-          title={isListView ? "Switch to grid view" : "Switch to list view"}
-        >
-          {isListView ? (
-            <Squares2X2Icon className="w-6 h-6" />
-          ) : (
-            <ListBulletIcon className="w-6 h-6" />
-          )}
-        </button>
+        <div className="flex items-center space-x-2 p-2 bg-gray-50 rounded-full">
+          <button
+            onClick={() => setViewMode('list')}
+            className={`p-2 rounded-full transition-colors ${
+              viewMode === 'list' ? 'bg-gray-200' : 'hover:bg-gray-100'
+            }`}
+            title="List view"
+          >
+            <ListBulletIcon className="w-5 h-5" />
+          </button>
+          <button
+            onClick={() => setViewMode('grid')}
+            className={`p-2 rounded-full transition-colors ${
+              viewMode === 'grid' ? 'bg-gray-200' : 'hover:bg-gray-100'
+            }`}
+            title="Grid view"
+          >
+            <Squares2X2Icon className="w-5 h-5" />
+          </button>
+          <button
+            onClick={() => setViewMode('compact')}
+            className={`p-2 rounded-full transition-colors ${
+              viewMode === 'compact' ? 'bg-gray-200' : 'hover:bg-gray-100'
+            }`}
+            title="Compact view"
+          >
+            <div className="grid grid-cols-2 gap-1 w-5 h-5">
+              <div className="bg-current rounded-sm"></div>
+              <div className="bg-current rounded-sm"></div>
+              <div className="bg-current rounded-sm"></div>
+              <div className="bg-current rounded-sm"></div>
+            </div>
+          </button>
+        </div>
       </div>
 
-      {isListView ? (
+      {viewMode === 'list' ? (
         <div className="space-y-4 p-4">
           {filteredEvents.map((event, index) => (
             <a
@@ -187,17 +210,19 @@ export default function Events({ searchTerm }: EventsProps) {
                   />
                 )}
                 <div className="flex-1">
-                  <h2 className="text-xl font-bold">{event.title}</h2>
-                  <p className="text-gray-600">
-                    {event.date} | {event.time} | {event.location}
-                  </p>
-                  <p className="text-sm text-gray-500">{event.type}</p>
+                  <h2 className="text-lg font-bold">{event.title}</h2>
+                  <div className="flex justify-between items-center">
+                    <p className="text-gray-600">
+                      {event.date} | {event.time} | {event.location}
+                    </p>
+                    <p className="text-sm text-gray-500">{event.type}</p>
+                  </div>
                 </div>
               </div>
             </a>
           ))}
         </div>
-      ) : (
+      ) : viewMode === 'grid' ? (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
           {filteredEvents.map((event, index) => (
             <a 
@@ -207,20 +232,60 @@ export default function Events({ searchTerm }: EventsProps) {
               rel="noopener noreferrer"
               className="block bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-200"
             >
-              {event.imageUrl && (
-                <img 
-                  src={event.imageUrl} 
-                  alt={event.title}
-                  className="w-full h-48 object-cover"
-                />
-              )}
-              <div className="p-4">
-                <h2 className="text-xl font-bold mb-2">{event.title}</h2>
-                <p className="text-gray-600 mb-2">
-                  {event.date} | {event.time}
-                </p>
-                <p className="text-gray-600 mb-2">{event.location}</p>
-                <p className="text-sm text-gray-500 mb-4">{event.type}</p>
+              <div className="relative">
+                {event.imageUrl && (
+                  <img 
+                    src={event.imageUrl} 
+                    alt={event.title}
+                    className="w-full h-48 object-cover"
+                  />
+                )}
+                <div className="absolute bottom-0 left-0 right-0 p-2 bg-black/50 text-white">
+                  <p className="text-sm">
+                    {event.date} | {event.time}
+                  </p>
+                </div>
+              </div>
+              <div className="p-3">
+                <h2 className="text-lg font-bold mb-1">{event.title}</h2>
+                <div className="flex justify-between items-center text-sm mb-1">
+                  <p className="text-gray-600">{event.location}</p>
+                  <p className="text-gray-500">{event.type}</p>
+                </div>
+              </div>
+            </a>
+          ))}
+        </div>
+      ) : (
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4">
+          {filteredEvents.map((event, index) => (
+            <a 
+              key={index}
+              href={event.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-200 text-sm"
+            >
+              <div className="relative">
+                {event.imageUrl && (
+                  <img 
+                    src={event.imageUrl} 
+                    alt={event.title}
+                    className="w-full h-32 object-cover"
+                  />
+                )}
+                <div className="absolute bottom-0 left-0 right-0 p-1.5 bg-black/50 text-white">
+                  <p className="text-xs">
+                    {event.date} | {event.time}
+                  </p>
+                </div>
+              </div>
+              <div className="p-2">
+                <h2 className="text-base font-bold mb-0.5">{event.title}</h2>
+                <div className="flex justify-between items-center text-xs mb-0.5">
+                  <p className="text-gray-600">{event.location}</p>
+                  <p className="text-gray-500">{event.type}</p>
+                </div>
               </div>
             </a>
           ))}
