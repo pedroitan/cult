@@ -83,7 +83,6 @@ export default function Events({ searchTerm }: EventsProps) {
         const formattedEvents: Event[] = rows
           .filter(row => row?.length >= 7) // Ensure we have all required columns
           .map((row: string[]) => {
-            // Ensure all required fields are present and properly typed
             const event = {
               title: row[0] ?? '',
               date: row[1] ?? '',
@@ -98,15 +97,12 @@ export default function Events({ searchTerm }: EventsProps) {
         
         console.log('Formatted events:', formattedEvents);
         
-        // Get today's date at midnight for comparison
         const today = new Date();
         today.setHours(0, 0, 0, 0);
         
-        // Filter and sort events
         const filteredAndSorted = formattedEvents
           .filter(event => {
             const eventDate = parseDate(event.date);
-            // Include events from today and future dates
             const eventDay = new Date(eventDate);
             eventDay.setHours(0, 0, 0, 0);
             return eventDay >= today || eventDay.toDateString() === today.toDateString();
@@ -119,19 +115,15 @@ export default function Events({ searchTerm }: EventsProps) {
         setEvents(filteredAndSorted);
       } catch (error) {
         console.error('Error fetching from Google Sheets:', error);
-        // Fallback to local data
         console.log('Falling back to local events data...');
         try {
           const localData = await import('../data/events.json');
-          // Get today's date at midnight for comparison
           const today = new Date();
           today.setHours(0, 0, 0, 0);
           
-          // Filter and sort local events
           const filteredAndSortedLocal = localData.default
             .filter(event => {
               const eventDate = parseDate(event.date);
-              // Include events from today and future dates
               const eventDay = new Date(eventDate);
               eventDay.setHours(0, 0, 0, 0);
               return eventDay >= today || eventDay.toDateString() === today.toDateString();
@@ -179,10 +171,10 @@ export default function Events({ searchTerm }: EventsProps) {
   const uniqueTypes = [...new Set(events.map(event => event.type))];
 
   return (
-    <div className="bg-gray-900 min-h-screen">
-      <div className="flex items-center p-4 overflow-x-auto scrollbar-hide">
+    <div className="bg-background min-h-screen">
+      <div className="flex items-center p-4 overflow-x-auto scrollbar-hide relative">
         <div className="flex items-center space-x-2 flex-nowrap">
-          <div className="relative w-32">
+          <div className="relative w-32 z-[9999]">
             <DatePicker
               selected={filters.date ? parseDate(filters.date) : null}
               onChange={(date) => {
@@ -199,24 +191,6 @@ export default function Events({ searchTerm }: EventsProps) {
               isClearable
               showYearDropdown
               dropdownMode="select"
-              popperModifiers={[
-                {
-                  name: 'preventOverflow',
-                  options: {
-                    rootBoundary: 'viewport',
-                    tether: false,
-                    altAxis: true,
-                  },
-                  fn: (state) => {
-                    const { x, y } = state;
-                    return {
-                      x: x,
-                      y: y,
-                    };
-                  },
-                },
-              ]}
-              popperPlacement="bottom-start"
             />
           </div>
           
