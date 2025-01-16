@@ -11,9 +11,11 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
+    "@types/react-datepicker": "^6.2.0",
     "googleapis": "^144.0.0",
     "lucide-react": "^0.344.0",
     "react": "^18.3.1",
+    "react-datepicker": "^7.6.0",
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
