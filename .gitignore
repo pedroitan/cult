@@ -1,7 +1,8 @@
 node_modules
 dist
-dist-ssr
-*.local
+.env
+firm-reef-447023-b0-*.json
+firm-reef-447023-b0-*.json
 firm-reef-447023-b0-*.json
 .env
 .env.*
