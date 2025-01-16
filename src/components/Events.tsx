@@ -28,10 +28,6 @@ export default function Events({ searchTerm }: EventsProps) {
     type: ''
   });
 
-  useEffect(() => {
-    document.documentElement.classList.add('dark');
-  }, []);
-
   // Helper function to parse both date formats
   const parseDate = (dateStr: string) => {
     // Handle "Domingo, DD de MMM" format
@@ -64,7 +60,7 @@ export default function Events({ searchTerm }: EventsProps) {
         console.log('Fetching data from Google Sheets...');
         const sheetId = '1184qmC-7mpZtpg15R--il4K3tVxSTAcJUZxpWf9KFAs';
         const sheetName = 'Página2';
-        const apiKey = import.meta.env.VITE_GOOGLE_SHEETS_API_KEY;
+        const apiKey = (import.meta as ImportMeta & { env: { VITE_GOOGLE_SHEETS_API_KEY: string } }).env.VITE_GOOGLE_SHEETS_API_KEY;
         
         const response = await fetch(
           `https://sheets.googleapis.com/v4/spreadsheets/${sheetId}/values/${sheetName}?key=${apiKey}`
@@ -184,9 +180,9 @@ export default function Events({ searchTerm }: EventsProps) {
 
   return (
     <div className="bg-gray-900 min-h-screen">
-      <div className="flex justify-between items-center p-4">
-        <div className="flex space-x-4">
-          <div className="relative">
+      <div className="flex items-center p-4 overflow-x-auto scrollbar-hide">
+        <div className="flex items-center space-x-2 flex-nowrap">
+          <div className="relative w-32">
             <DatePicker
               selected={filters.date ? parseDate(filters.date) : null}
               onChange={(date) => {
@@ -198,8 +194,8 @@ export default function Events({ searchTerm }: EventsProps) {
                 }
               }}
               dateFormat="dd/MM/yyyy"
-              placeholderText="Select date"
-              className="bg-gray-700 text-gray-100 rounded-md p-2 w-40"
+              placeholderText="Date"
+              className="bg-gray-700 text-gray-100 rounded-md p-2 w-full text-sm"
               isClearable
               showYearDropdown
               dropdownMode="select"
@@ -227,48 +223,48 @@ export default function Events({ searchTerm }: EventsProps) {
           <select
             value={filters.type}
             onChange={e => setFilters({...filters, type: e.target.value})}
-            className="bg-gray-700 text-gray-100 rounded-md p-2"
+            className="bg-gray-700 text-gray-100 rounded-md p-2 w-32 text-sm"
           >
             <option value="">All Types</option>
             {uniqueTypes.map(type => (
               <option key={type} value={type}>{type}</option>
             ))}
           </select>
-        </div>
-        
-        <div className="flex items-center space-x-2 p-2 bg-gray-800 rounded-full">
-          <button
-            onClick={() => setViewMode('list')}
-            className={`p-2 rounded-full transition-colors ${
-              viewMode === 'list' ? 'bg-gray-700' : 'hover:bg-gray-700'
-            }`}
-            title="List view"
-          >
-            <ListBulletIcon className="w-5 h-5 text-gray-300" />
-          </button>
-          <button
-            onClick={() => setViewMode('grid')}
-            className={`p-2 rounded-full transition-colors ${
-              viewMode === 'grid' ? 'bg-gray-700' : 'hover:bg-gray-700'
-            }`}
-            title="Grid view"
-          >
-            <Squares2X2Icon className="w-5 h-5 text-gray-300" />
-          </button>
-          <button
-            onClick={() => setViewMode('compact')}
-            className={`p-2 rounded-full transition-colors ${
-              viewMode === 'compact' ? 'bg-gray-700' : 'hover:bg-gray-700'
-            }`}
-            title="Compact view"
-          >
-            <div className="grid grid-cols-2 gap-1 w-5 h-5 text-gray-300">
-              <div className="bg-current rounded-sm"></div>
-              <div className="bg-current rounded-sm"></div>
-              <div className="bg-current rounded-sm"></div>
-              <div className="bg-current rounded-sm"></div>
-            </div>
-          </button>
+          
+          <div className="flex items-center space-x-1 p-1 bg-gray-800 rounded-full">
+            <button
+              onClick={() => setViewMode('list')}
+              className={`p-2 rounded-full transition-colors ${
+                viewMode === 'list' ? 'bg-gray-700' : 'hover:bg-gray-700'
+              }`}
+              title="List view"
+            >
+              <ListBulletIcon className="w-5 h-5 text-gray-300" />
+            </button>
+            <button
+              onClick={() => setViewMode('grid')}
+              className={`p-2 rounded-full transition-colors ${
+                viewMode === 'grid' ? 'bg-gray-700' : 'hover:bg-gray-700'
+              }`}
+              title="Grid view"
+            >
+              <Squares2X2Icon className="w-5 h-5 text-gray-300" />
+            </button>
+            <button
+              onClick={() => setViewMode('compact')}
+              className={`p-2 rounded-full transition-colors ${
+                viewMode === 'compact' ? 'bg-gray-700' : 'hover:bg-gray-700'
+              }`}
+              title="Compact view"
+            >
+              <div className="grid grid-cols-2 gap-1 w-5 h-5 text-gray-300">
+                <div className="bg-current rounded-sm"></div>
+                <div className="bg-current rounded-sm"></div>
+                <div className="bg-current rounded-sm"></div>
+                <div className="bg-current rounded-sm"></div>
+              </div>
+            </button>
+          </div>
         </div>
       </div>
 
@@ -287,10 +283,10 @@ export default function Events({ searchTerm }: EventsProps) {
                   <img
                     src={event.imageUrl}
                     alt={event.title}
-                    className="w-24 h-24 object-cover rounded-lg"
+                    className="w-32 h-32 md:w-24 md:h-24 object-cover rounded-lg"
                   />
                 )}
-                <div className="flex-1">
+                <div className="flex-1 min-w-0">
                   <h2 className="text-lg font-bold text-gray-100">{event.title}</h2>
                   <div className="flex justify-between items-center">
                     <p className="text-gray-300">
@@ -328,10 +324,10 @@ export default function Events({ searchTerm }: EventsProps) {
                 </div>
               </div>
               <div className="p-3">
-                <h2 className="text-lg font-bold mb-1 text-gray-100">{event.title}</h2>
-                <div className="flex justify-between items-center text-sm mb-1">
-                  <p className="text-gray-300">{event.location}</p>
-                  <p className="text-gray-400">{event.type}</p>
+                <h2 className="text-sm sm:text-base md:text-lg font-bold mb-1 text-gray-100">{event.title}</h2>
+                <div className="flex justify-between items-center text-[11px] sm:text-xs md:text-sm mb-1">
+                  <p className="text-gray-300 truncate">{event.location}</p>
+                  <p className="text-gray-400 truncate">{event.type}</p>
                 </div>
               </div>
             </a>

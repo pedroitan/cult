@@ -1,12 +1,14 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { Search } from 'lucide-react';
 import Events from './components/Events';
+import AdBanner from './components/AdBanner';
 
 function App() {
   const [searchTerm, setSearchTerm] = useState("");
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 to-indigo-50">
+    <div className="min-h-screen bg-white">
+      <AdBanner />
       {/* Header and Search */}
       <div className="sticky top-0 bg-white/80 backdrop-blur-lg shadow-sm z-10">
         <div className="max-w-6xl mx-auto px-4 py-6">
