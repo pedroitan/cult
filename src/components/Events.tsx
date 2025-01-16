@@ -2,6 +2,8 @@
 // Itan Tech
 import React, { useEffect, useState } from 'react';
 import { ListBulletIcon, Squares2X2Icon } from '@heroicons/react/24/outline';
+import DatePicker from 'react-datepicker';
+import 'react-datepicker/dist/react-datepicker.css';
 
 interface Event {
   title: string;
@@ -23,7 +25,6 @@ export default function Events({ searchTerm }: EventsProps) {
   const [viewMode, setViewMode] = useState<'list' | 'grid' | 'compact'>('grid');
   const [filters, setFilters] = useState({
     date: '',
-    location: '',
     type: ''
   });
 
@@ -173,41 +174,55 @@ export default function Events({ searchTerm }: EventsProps) {
       
       const matchesFilters = (
         (!filters.date || event.date === filters.date) &&
-        (!filters.location || event.location.toLowerCase().includes(filters.location.toLowerCase())) &&
         (!filters.type || event.type.toLowerCase() === filters.type.toLowerCase())
       );
       
       return matchesSearch && matchesFilters;
     });
 
-  const uniqueLocations = [...new Set(events.map(event => event.location))];
   const uniqueTypes = [...new Set(events.map(event => event.type))];
 
   return (
     <div className="bg-gray-900 min-h-screen">
       <div className="flex justify-between items-center p-4">
         <div className="flex space-x-4">
-          <select
-            value={filters.date}
-            onChange={e => setFilters({...filters, date: e.target.value})}
-            className="bg-gray-700 text-gray-100 rounded-md p-2"
-          >
-            <option value="">All Dates</option>
-            {[...new Set(events.map(event => event.date))].map(date => (
-              <option key={date} value={date}>{date}</option>
-            ))}
-          </select>
-          
-          <select
-            value={filters.location}
-            onChange={e => setFilters({...filters, location: e.target.value})}
-            className="bg-gray-700 text-gray-100 rounded-md p-2"
-          >
-            <option value="">All Locations</option>
-            {uniqueLocations.map(location => (
-              <option key={location} value={location}>{location}</option>
-            ))}
-          </select>
+          <div className="relative">
+            <DatePicker
+              selected={filters.date ? parseDate(filters.date) : null}
+              onChange={(date) => {
+                if (date) {
+                  const formattedDate = date.toLocaleDateString('pt-BR');
+                  setFilters({...filters, date: formattedDate});
+                } else {
+                  setFilters({...filters, date: ''});
+                }
+              }}
+              dateFormat="dd/MM/yyyy"
+              placeholderText="Select date"
+              className="bg-gray-700 text-gray-100 rounded-md p-2 w-40"
+              isClearable
+              showYearDropdown
+              dropdownMode="select"
+              popperModifiers={[
+                {
+                  name: 'preventOverflow',
+                  options: {
+                    rootBoundary: 'viewport',
+                    tether: false,
+                    altAxis: true,
+                  },
+                  fn: (state) => {
+                    const { x, y } = state;
+                    return {
+                      x: x,
+                      y: y,
+                    };
+                  },
+                },
+              ]}
+              popperPlacement="bottom-start"
+            />
+          </div>
           
           <select
             value={filters.type}
@@ -258,14 +273,14 @@ export default function Events({ searchTerm }: EventsProps) {
       </div>
 
       {viewMode === 'list' ? (
-        <div className="space-y-4 p-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-4">
           {filteredEvents.map((event, index) => (
             <a
               key={index}
               href={event.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="block p-4 bg-gray-800 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200"
+              className="block p-4 bg-gray-800 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200 h-full"
             >
               <div className="flex items-center space-x-4">
                 {event.imageUrl && (
