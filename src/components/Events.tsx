@@ -19,15 +19,27 @@ export default function Events({ searchTerm }: EventsProps) {
   const [events, setEvents] = useState<Event[]>([]);
   const [loading, setLoading] = useState(true);
   const [viewMode, setViewMode] = useState<'list' | 'grid' | 'compact'>('grid');
+  const [filters, setFilters] = useState({
+    date: '',
+    location: '',
+    type: ''
+  });
+
+  useEffect(() => {
+    document.documentElement.classList.add('dark');
+  }, []);
 
   // Helper function to parse both date formats
   const parseDate = (dateStr: string) => {
     // Handle "Domingo, DD de MMM" format
     if (dateStr.includes(',')) {
       const monthMap: { [key: string]: string } = {
-        'jan': '01', 'fev': '02', 'mar': '03', 'abr': '04',
-        'mai': '05', 'jun': '06', 'jul': '07', 'ago': '08',
-        'set': '09', 'out': '10', 'nov': '11', 'dez': '12'
+        'jan': '01', 'jan.': '01', 'fev': '02', 'fev.': '02', 
+        'mar': '03', 'mar.': '03', 'abr': '04', 'abr.': '04',
+        'mai': '05', 'mai.': '05', 'jun': '06', 'jun.': '06', 
+        'jul': '07', 'jul.': '07', 'ago': '08', 'ago.': '08',
+        'set': '09', 'set.': '09', 'out': '10', 'out.': '10', 
+        'nov': '11', 'nov.': '11', 'dez': '12', 'dez.': '12'
       };
       
       const parts = dateStr.split(' ');
@@ -95,7 +107,10 @@ export default function Events({ searchTerm }: EventsProps) {
         const filteredAndSorted = formattedEvents
           .filter(event => {
             const eventDate = parseDate(event.date);
-            return eventDate >= today;
+            // Include events from today and future dates
+            const eventDay = new Date(eventDate);
+            eventDay.setHours(0, 0, 0, 0);
+            return eventDay >= today || eventDay.toDateString() === today.toDateString();
           })
           .sort((a, b) => {
             const dateA = parseDate(a.date);
@@ -117,7 +132,10 @@ export default function Events({ searchTerm }: EventsProps) {
           const filteredAndSortedLocal = localData.default
             .filter(event => {
               const eventDate = parseDate(event.date);
-              return eventDate >= today;
+              // Include events from today and future dates
+              const eventDay = new Date(eventDate);
+              eventDay.setHours(0, 0, 0, 0);
+              return eventDay >= today || eventDay.toDateString() === today.toDateString();
             })
             .sort((a, b) => {
               const dateA = parseDate(a.date);
@@ -138,50 +156,96 @@ export default function Events({ searchTerm }: EventsProps) {
   }, []);
 
   if (loading) {
-    return <div>Loading events...</div>;
+    return <div className="text-gray-100">Loading events...</div>;
   }
 
   const filteredEvents = events
     .filter(event => event && event.title && event.location && event.type)
     .filter(event => {
       const searchLower = searchTerm.toLowerCase();
-      return (
+      const matchesSearch = (
         event.title.toLowerCase().includes(searchLower) ||
         event.location.toLowerCase().includes(searchLower) ||
         event.type.toLowerCase().includes(searchLower)
       );
+      
+      const matchesFilters = (
+        (!filters.date || event.date === filters.date) &&
+        (!filters.location || event.location.toLowerCase().includes(filters.location.toLowerCase())) &&
+        (!filters.type || event.type.toLowerCase() === filters.type.toLowerCase())
+      );
+      
+      return matchesSearch && matchesFilters;
     });
 
+  const uniqueLocations = [...new Set(events.map(event => event.location))];
+  const uniqueTypes = [...new Set(events.map(event => event.type))];
+
   return (
-    <div>
-      <div className="flex justify-end p-4">
-        <div className="flex items-center space-x-2 p-2 bg-gray-50 rounded-full">
+    <div className="bg-gray-900 min-h-screen">
+      <div className="flex justify-between items-center p-4">
+        <div className="flex space-x-4">
+          <select
+            value={filters.date}
+            onChange={e => setFilters({...filters, date: e.target.value})}
+            className="bg-gray-700 text-gray-100 rounded-md p-2"
+          >
+            <option value="">All Dates</option>
+            {[...new Set(events.map(event => event.date))].map(date => (
+              <option key={date} value={date}>{date}</option>
+            ))}
+          </select>
+          
+          <select
+            value={filters.location}
+            onChange={e => setFilters({...filters, location: e.target.value})}
+            className="bg-gray-700 text-gray-100 rounded-md p-2"
+          >
+            <option value="">All Locations</option>
+            {uniqueLocations.map(location => (
+              <option key={location} value={location}>{location}</option>
+            ))}
+          </select>
+          
+          <select
+            value={filters.type}
+            onChange={e => setFilters({...filters, type: e.target.value})}
+            className="bg-gray-700 text-gray-100 rounded-md p-2"
+          >
+            <option value="">All Types</option>
+            {uniqueTypes.map(type => (
+              <option key={type} value={type}>{type}</option>
+            ))}
+          </select>
+        </div>
+        
+        <div className="flex items-center space-x-2 p-2 bg-gray-800 rounded-full">
           <button
             onClick={() => setViewMode('list')}
             className={`p-2 rounded-full transition-colors ${
-              viewMode === 'list' ? 'bg-gray-200' : 'hover:bg-gray-100'
+              viewMode === 'list' ? 'bg-gray-700' : 'hover:bg-gray-700'
             }`}
             title="List view"
           >
-            <ListBulletIcon className="w-5 h-5" />
+            <ListBulletIcon className="w-5 h-5 text-gray-300" />
           </button>
           <button
             onClick={() => setViewMode('grid')}
             className={`p-2 rounded-full transition-colors ${
-              viewMode === 'grid' ? 'bg-gray-200' : 'hover:bg-gray-100'
+              viewMode === 'grid' ? 'bg-gray-700' : 'hover:bg-gray-700'
             }`}
             title="Grid view"
           >
-            <Squares2X2Icon className="w-5 h-5" />
+            <Squares2X2Icon className="w-5 h-5 text-gray-300" />
           </button>
           <button
             onClick={() => setViewMode('compact')}
             className={`p-2 rounded-full transition-colors ${
-              viewMode === 'compact' ? 'bg-gray-200' : 'hover:bg-gray-100'
+              viewMode === 'compact' ? 'bg-gray-700' : 'hover:bg-gray-700'
             }`}
             title="Compact view"
           >
-            <div className="grid grid-cols-2 gap-1 w-5 h-5">
+            <div className="grid grid-cols-2 gap-1 w-5 h-5 text-gray-300">
               <div className="bg-current rounded-sm"></div>
               <div className="bg-current rounded-sm"></div>
               <div className="bg-current rounded-sm"></div>
@@ -199,7 +263,7 @@ export default function Events({ searchTerm }: EventsProps) {
               href={event.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="block p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200"
+              className="block p-4 bg-gray-800 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200"
             >
               <div className="flex items-center space-x-4">
                 {event.imageUrl && (
@@ -210,12 +274,12 @@ export default function Events({ searchTerm }: EventsProps) {
                   />
                 )}
                 <div className="flex-1">
-                  <h2 className="text-lg font-bold">{event.title}</h2>
+                  <h2 className="text-lg font-bold text-gray-100">{event.title}</h2>
                   <div className="flex justify-between items-center">
-                    <p className="text-gray-600">
+                    <p className="text-gray-300">
                       {event.date} | {event.time} | {event.location}
                     </p>
-                    <p className="text-sm text-gray-500">{event.type}</p>
+                    <p className="text-sm text-gray-400">{event.type}</p>
                   </div>
                 </div>
               </div>
@@ -223,21 +287,21 @@ export default function Events({ searchTerm }: EventsProps) {
           ))}
         </div>
       ) : viewMode === 'grid' ? (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
+        <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2 p-4">
           {filteredEvents.map((event, index) => (
             <a 
               key={index}
               href={event.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="block bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-200"
+              className="block bg-gray-800 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-200"
             >
-              <div className="relative">
+              <div className="relative aspect-video">
                 {event.imageUrl && (
                   <img 
                     src={event.imageUrl} 
                     alt={event.title}
-                    className="w-full h-48 object-cover"
+                    className="w-full h-full object-cover"
                   />
                 )}
                 <div className="absolute bottom-0 left-0 right-0 p-2 bg-black/50 text-white">
@@ -247,31 +311,31 @@ export default function Events({ searchTerm }: EventsProps) {
                 </div>
               </div>
               <div className="p-3">
-                <h2 className="text-lg font-bold mb-1">{event.title}</h2>
+                <h2 className="text-lg font-bold mb-1 text-gray-100">{event.title}</h2>
                 <div className="flex justify-between items-center text-sm mb-1">
-                  <p className="text-gray-600">{event.location}</p>
-                  <p className="text-gray-500">{event.type}</p>
+                  <p className="text-gray-300">{event.location}</p>
+                  <p className="text-gray-400">{event.type}</p>
                 </div>
               </div>
             </a>
           ))}
         </div>
       ) : (
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 p-4">
           {filteredEvents.map((event, index) => (
             <a 
               key={index}
               href={event.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="block bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-200 text-sm"
+              className="block bg-gray-800 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-200 text-sm"
             >
-              <div className="relative">
+              <div className="relative aspect-video">
                 {event.imageUrl && (
                   <img 
                     src={event.imageUrl} 
                     alt={event.title}
-                    className="w-full h-32 object-cover"
+                    className="w-full h-full object-cover"
                   />
                 )}
                 <div className="absolute bottom-0 left-0 right-0 p-1.5 bg-black/50 text-white">
@@ -281,10 +345,10 @@ export default function Events({ searchTerm }: EventsProps) {
                 </div>
               </div>
               <div className="p-2">
-                <h2 className="text-base font-bold mb-0.5">{event.title}</h2>
+                <h2 className="text-base font-bold mb-0.5 text-gray-100">{event.title}</h2>
                 <div className="flex justify-between items-center text-xs mb-0.5">
-                  <p className="text-gray-600">{event.location}</p>
-                  <p className="text-gray-500">{event.type}</p>
+                  <p className="text-gray-300">{event.location}</p>
+                  <p className="text-gray-400">{event.type}</p>
                 </div>
               </div>
             </a>
