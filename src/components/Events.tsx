@@ -1,6 +1,11 @@
+// Main Events component for displaying cultural events in different views
+// Itan Tech
 import React, { useEffect, useState } from 'react';
 import { ListBulletIcon, Squares2X2Icon } from '@heroicons/react/24/outline';
+import DatePicker from 'react-datepicker';
+import 'react-datepicker/dist/react-datepicker.css';
 
+// Type definition for Event object
 interface Event {
   title: string;
   date: string;
@@ -15,7 +20,9 @@ interface EventsProps {
   searchTerm: string;
 }
 
+// Main Events component that takes searchTerm as prop
 export default function Events({ searchTerm }: EventsProps) {
+  // State management for events, loading status, view mode and filters
   const [events, setEvents] = useState<Event[]>([]);
   const [loading, setLoading] = useState(true);
   const [viewMode, setViewMode] = useState<'list' | 'grid' | 'compact'>('grid');
@@ -25,11 +32,14 @@ export default function Events({ searchTerm }: EventsProps) {
     type: ''
   });
 
+  // Set dark mode on component mount
   useEffect(() => {
     document.documentElement.classList.add('dark');
   }, []);
 
-  // Helper function to parse both date formats
+  // Helper function to parse both date formats:
+  // 1. "Domingo, DD de MMM" format
+  // 2. "DD/MM/YYYY" format
   const parseDate = (dateStr: string) => {
     // Handle "Domingo, DD de MMM" format
     if (dateStr.includes(',')) {
@@ -55,7 +65,17 @@ export default function Events({ searchTerm }: EventsProps) {
     return new Date(`${year}-${month}-${day}`);
   };
 
+  // Helper function to format Date object as DD/MM/YYYY string
+  const formatDate = (date: Date) => {
+    const day = String(date.getDate()).padStart(2, '0');
+    const month = String(date.getMonth() + 1).padStart(2, '0');
+    const year = date.getFullYear();
+    return `${day}/${month}/${year}`;
+  };
+
+  // Main data fetching effect
   useEffect(() => {
+    // Async function to fetch events from Google Sheets
     const fetchFromGoogleSheets = async () => {
       try {
         console.log('Fetching data from Google Sheets...');
@@ -117,7 +137,17 @@ export default function Events({ searchTerm }: EventsProps) {
             const dateB = parseDate(b.date);
             return dateA.getTime() - dateB.getTime();
           });
-        setEvents(filteredAndSorted);
+
+        // Remove duplicates based on title + date
+        const uniqueEvents = filteredAndSorted.reduce((acc, event) => {
+          const eventKey = `${event.title.toLowerCase()}|${event.date}`;
+          if (!acc.has(eventKey)) {
+            acc.set(eventKey, event);
+          }
+          return acc;
+        }, new Map<string, Event>());
+
+        setEvents(Array.from(uniqueEvents.values()));
       } catch (error) {
         console.error('Error fetching from Google Sheets:', error);
         // Fallback to local data
@@ -142,7 +172,17 @@ export default function Events({ searchTerm }: EventsProps) {
               const dateB = parseDate(b.date);
               return dateA.getTime() - dateB.getTime();
             });
-          setEvents(filteredAndSortedLocal);
+
+          // Remove duplicates based on title + date
+          const uniqueEventsLocal = filteredAndSortedLocal.reduce((acc, event) => {
+            const eventKey = `${event.title.toLowerCase()}|${event.date}`;
+            if (!acc.has(eventKey)) {
+              acc.set(eventKey, event);
+            }
+            return acc;
+          }, new Map<string, Event>());
+
+          setEvents(Array.from(uniqueEventsLocal.values()));
         } catch (localError) {
           console.error('Error loading local events:', localError);
           setEvents([]);
@@ -155,10 +195,12 @@ export default function Events({ searchTerm }: EventsProps) {
     fetchFromGoogleSheets();
   }, []);
 
+  // Loading state UI
   if (loading) {
     return <div className="text-gray-100">Loading events...</div>;
   }
 
+  // Filter events based on search term and active filters
   const filteredEvents = events
     .filter(event => event && event.title && event.location && event.type)
     .filter(event => {
@@ -181,31 +223,41 @@ export default function Events({ searchTerm }: EventsProps) {
   const uniqueLocations = [...new Set(events.map(event => event.location))];
   const uniqueTypes = [...new Set(events.map(event => event.type))];
 
+  // Main component render
   return (
     <div className="bg-gray-900 min-h-screen">
-      <div className="flex justify-between items-center p-4">
+      {/* Top bar with filters and view mode controls */}
+      <div className="flex justify-between items-center p-4 bg-gray-800">
         <div className="flex space-x-4">
-          <select
-            value={filters.date}
-            onChange={e => setFilters({...filters, date: e.target.value})}
-            className="bg-gray-700 text-gray-100 rounded-md p-2"
-          >
-            <option value="">All Dates</option>
-            {[...new Set(events.map(event => event.date))].map(date => (
-              <option key={date} value={date}>{date}</option>
-            ))}
-          </select>
+          <div className="relative">
+            <DatePicker
+              selected={filters.date ? parseDate(filters.date) : null}
+              onChange={(date) => {
+                const formattedDate = date ? formatDate(date) : '';
+                setFilters({...filters, date: formattedDate});
+              }}
+              placeholderText="Select date"
+              dateFormat="dd/MM/yyyy"
+              className="bg-gray-700 text-gray-100 rounded-md p-2 w-40"
+              calendarClassName="bg-gray-800 border-gray-700"
+              dayClassName={() => "text-gray-100 hover:bg-gray-700"}
+              weekDayClassName={() => "text-gray-300"}
+              monthClassName={() => "text-gray-100"}
+              yearClassName={() => "text-gray-100"}
+              showMonthDropdown
+              showYearDropdown
+              dropdownMode="select"
+              isClearable
+            />
+          </div>
           
-          <select
+          <input
+            type="text"
             value={filters.location}
             onChange={e => setFilters({...filters, location: e.target.value})}
-            className="bg-gray-700 text-gray-100 rounded-md p-2"
-          >
-            <option value="">All Locations</option>
-            {uniqueLocations.map(location => (
-              <option key={location} value={location}>{location}</option>
-            ))}
-          </select>
+            placeholder="Search location..."
+            className="bg-gray-700 text-gray-100 rounded-md p-2 w-48"
+          />
           
           <select
             value={filters.type}
@@ -255,8 +307,10 @@ export default function Events({ searchTerm }: EventsProps) {
         </div>
       </div>
 
+      {/* Conditional rendering based on view mode */}
       {viewMode === 'list' ? (
-        <div className="space-y-4 p-4">
+        // List view layout
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
           {filteredEvents.map((event, index) => (
             <a
               key={index}
@@ -277,7 +331,7 @@ export default function Events({ searchTerm }: EventsProps) {
                   <h2 className="text-lg font-bold text-gray-100">{event.title}</h2>
                   <div className="flex justify-between items-center">
                     <p className="text-gray-300">
-                      {event.date} | {event.time} | {event.location}
+                      {formatDate(parseDate(event.date))} | {event.time} | {event.location}
                     </p>
                     <p className="text-sm text-gray-400">{event.type}</p>
                   </div>
@@ -306,7 +360,7 @@ export default function Events({ searchTerm }: EventsProps) {
                 )}
                 <div className="absolute bottom-0 left-0 right-0 p-2 bg-black/50 text-white">
                   <p className="text-sm">
-                    {event.date} | {event.time}
+                    {formatDate(parseDate(event.date))} | {event.time}
                   </p>
                 </div>
               </div>
@@ -340,7 +394,7 @@ export default function Events({ searchTerm }: EventsProps) {
                 )}
                 <div className="absolute bottom-0 left-0 right-0 p-1.5 bg-black/50 text-white">
                   <p className="text-xs">
-                    {event.date} | {event.time}
+                    {formatDate(parseDate(event.date))} | {event.time}
                   </p>
                 </div>
               </div>
