@@ -4,10 +4,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#6b46c1', // Example color from the reference image
-        secondary: '#b794f4', // Example color from the reference image
-        background: '#1a202c', // Example background color
-        // Add more colors as needed
+        primary: '#6b46c1',
+        secondary: '#b794f4',
+        background: '#3F2A8C',
+        dark: '#1C1240'
       },
     },
   },

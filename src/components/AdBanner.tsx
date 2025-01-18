@@ -12,7 +12,7 @@ const AdBanner = () => {
         <text 
           x="50%" 
           y="50%" 
-          fill="white" 
+          fill="#1C1240" 
           fontSize="32" 
           textAnchor="middle" 
           dominantBaseline="middle"

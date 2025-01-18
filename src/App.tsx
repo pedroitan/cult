@@ -11,12 +11,12 @@ function App() {
   const [events, setEvents] = useState<Event[]>([]);
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       {/* Header and Navigation */}
-      <div className="bg-white">
+      <div className="bg-dark">
         <AdBanner />
         <div className="max-w-6xl mx-auto px-4 py-6 space-y-6">
-          <h1 className="text-3xl font-bold text-gray-900 mb-6">Cultural Agenda</h1>
+          <h1 className="text-3xl font-bold text-white mb-6">Na Pista!</h1>
           
           {/* Tab Navigation */}
           <div className="flex gap-4 mb-6">
@@ -28,7 +28,7 @@ function App() {
                   : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
               }`}
             >
-              Events
+              Eventos
             </button>
             <button
               onClick={() => setActiveTab('curators')}
@@ -44,11 +44,11 @@ function App() {
 
           {/* Search */}
           <div className="relative">
-            <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 h-5 w-5" />
+            <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-300 h-5 w-5" />
             <input
               type="text"
               placeholder="Search events..."
-              className="w-full pl-12 pr-4 py-3 rounded-xl border border-gray-200 focus:border-indigo-300 focus:ring-2 focus:ring-indigo-100 transition-all outline-none"
+              className="w-full pl-12 pr-4 py-3 rounded-xl border border-gray-600 bg-dark text-white placeholder-gray-400 focus:border-indigo-400 focus:ring-2 focus:ring-indigo-300 transition-all outline-none"
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
             />

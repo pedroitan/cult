@@ -4,12 +4,8 @@
 
 /* Custom styles to match the reference image */
 body {
-  background-color: #1a202c; /* Background color */
+  background-color: #1C1240; /* Updated background color */
   color: #f7fafc; /* Default text color */
-}
-
-.bg-gray-900 {
-  background-color: #2d3748; /* Darker background for specific components */
 }
 
 .text-gray-100 {

@@ -4,6 +4,7 @@ import React, { useEffect, useState } from 'react';
 import { ListBulletIcon, Squares2X2Icon } from '@heroicons/react/24/outline';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
+import { motion } from 'framer-motion';
 
 export interface Event {
   title: string;
@@ -26,7 +27,8 @@ export default function Events({ searchTerm, onEventsLoaded }: EventsProps) {
   const [viewMode, setViewMode] = useState<'list' | 'grid' | 'compact'>('grid');
   const [filters, setFilters] = useState({
     date: '',
-    type: ''
+    type: '',
+    location: ''
   });
 
   // Helper function to parse both date formats
@@ -173,7 +175,8 @@ export default function Events({ searchTerm, onEventsLoaded }: EventsProps) {
       
       const matchesFilters = (
         (!filters.date || event.date === filters.date) &&
-        (!filters.type || event.type.toLowerCase() === filters.type.toLowerCase())
+        (!filters.type || event.type.toLowerCase() === filters.type.toLowerCase()) &&
+        (!filters.location || event.location.toLowerCase().includes(filters.location.toLowerCase()))
       );
       
       return matchesSearch && matchesFilters;
@@ -183,7 +186,7 @@ export default function Events({ searchTerm, onEventsLoaded }: EventsProps) {
 
   return (
     <div className="bg-background min-h-screen">
-      <div className="flex items-center p-4 overflow-x-auto scrollbar-hide bg-gray-900">
+      <div className="flex items-center p-4 overflow-x-auto scrollbar-hide">
         <div className="flex items-center space-x-2 flex-nowrap">
           <div className="relative w-32">
             <DatePicker
@@ -216,39 +219,93 @@ export default function Events({ searchTerm, onEventsLoaded }: EventsProps) {
             ))}
           </select>
           
-          <div className="flex items-center space-x-1 p-1 bg-gray-800 rounded-full">
-            <button
-              onClick={() => setViewMode('list')}
-              className={`p-2 rounded-full transition-colors ${
-                viewMode === 'list' ? 'bg-gray-700' : 'hover:bg-gray-700'
-              }`}
-              title="List view"
-            >
-              <ListBulletIcon className="w-5 h-5 text-gray-300" />
-            </button>
-            <button
-              onClick={() => setViewMode('grid')}
-              className={`p-2 rounded-full transition-colors ${
-                viewMode === 'grid' ? 'bg-gray-700' : 'hover:bg-gray-700'
-              }`}
-              title="Grid view"
-            >
-              <Squares2X2Icon className="w-5 h-5 text-gray-300" />
-            </button>
-            <button
-              onClick={() => setViewMode('compact')}
-              className={`p-2 rounded-full transition-colors ${
-                viewMode === 'compact' ? 'bg-gray-700' : 'hover:bg-gray-700'
-              }`}
-              title="Compact view"
-            >
-              <div className="grid grid-cols-2 gap-1 w-5 h-5 text-gray-300">
-                <div className="bg-current rounded-sm"></div>
-                <div className="bg-current rounded-sm"></div>
-                <div className="bg-current rounded-sm"></div>
-                <div className="bg-current rounded-sm"></div>
-              </div>
-            </button>
+          <div className="flex items-center space-x-2">
+            <div className="flex items-center space-x-1 p-1 bg-gray-800 rounded-full">
+              <button
+                onClick={() => setViewMode('list')}
+                className={`p-2 rounded-full transition-colors ${
+                  viewMode === 'list' ? 'bg-gray-700' : 'hover:bg-gray-700'
+                }`}
+                title="List view"
+              >
+                <ListBulletIcon className="w-5 h-5 text-gray-300" />
+              </button>
+              <button
+                onClick={() => setViewMode('grid')}
+                className={`p-2 rounded-full transition-colors ${
+                  viewMode === 'grid' ? 'bg-gray-700' : 'hover:bg-gray-700'
+                }`}
+                title="Grid view"
+              >
+                <Squares2X2Icon className="w-5 h-5 text-gray-300" />
+              </button>
+              <button
+                onClick={() => setViewMode('compact')}
+                className={`p-2 rounded-full transition-colors ${
+                  viewMode === 'compact' ? 'bg-gray-700' : 'hover:bg-gray-700'
+                }`}
+                title="Compact view"
+              >
+                <div className="grid grid-cols-2 gap-1 w-5 h-5 text-gray-300">
+                  <div className="bg-current rounded-sm"></div>
+                  <div className="bg-current rounded-sm"></div>
+                  <div className="bg-current rounded-sm"></div>
+                  <div className="bg-current rounded-sm"></div>
+                </div>
+              </button>
+            </div>
+
+            <div className="flex items-center space-x-2">
+              <button
+                onClick={() => setFilters({...filters, date: new Date().toLocaleDateString('pt-BR')})}
+                className={`px-3 py-1.5 text-sm rounded-full transition-colors ${
+                  filters.date === new Date().toLocaleDateString('pt-BR') 
+                    ? 'bg-indigo-600 text-white' 
+                    : 'bg-gray-700 text-gray-300 hover:bg-gray-600'
+                }`}
+              >
+                Hoje
+              </button>
+              <button
+                onClick={() => setFilters(prev => ({
+                  ...prev,
+                  location: prev.location === 'Pelourinho' ? '' : 'Pelourinho'
+                }))}
+                className={`px-3 py-1.5 text-sm rounded-full transition-colors ${
+                  filters.location === 'Pelourinho'
+                    ? 'bg-indigo-600 text-white'
+                    : 'bg-gray-700 text-gray-300 hover:bg-gray-600'
+                }`}
+              >
+                Pelourinho
+              </button>
+              <button
+                onClick={() => setFilters(prev => ({
+                  ...prev,
+                  type: prev.type === 'Rock' ? '' : 'Rock'
+                }))}
+                className={`px-3 py-1.5 text-sm rounded-full transition-colors ${
+                  filters.type === 'Rock'
+                    ? 'bg-indigo-600 text-white'
+                    : 'bg-gray-700 text-gray-300 hover:bg-gray-600'
+                }`}
+              >
+                Rock
+              </button>
+              <button
+                onClick={() => setFilters(prev => ({
+                  ...prev,
+                  type: prev.type === 'Samba' ? '' : 'Samba'
+                }))}
+                className={`px-3 py-1.5 text-sm rounded-full transition-colors ${
+                  filters.type === 'Samba'
+                    ? 'bg-indigo-600 text-white'
+                    : 'bg-gray-700 text-gray-300 hover:bg-gray-600'
+                }`}
+              >
+                Samba
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -256,19 +313,34 @@ export default function Events({ searchTerm, onEventsLoaded }: EventsProps) {
       {viewMode === 'list' ? (
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-4 pt-0">
           {filteredEvents.map((event, index) => (
-            <a
+            <motion.a
               key={index}
               href={event.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="block p-4 bg-gray-800 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200 h-full"
+              className="block p-4 bg-dark/50 rounded-lg shadow-md hover:shadow-lg hover:bg-dark/70 transition-all duration-200 h-full group transform-style-3d"
+              whileHover={{ 
+                scale: 1.02,
+                rotateX: 2,
+                rotateY: -2,
+                transition: { type: "spring", stiffness: 300, damping: 10 }
+              }}
+              style={{ perspective: 1000 }}
+              initial={{ opacity: 0, y: 20, scale: 0.95 }}
+              animate={{ opacity: 1, y: 0, scale: 1 }}
+              transition={{ 
+                type: "spring",
+                stiffness: 120,
+                damping: 12,
+                delay: index * 0.05
+              }}
             >
               <div className="flex items-center space-x-4">
                 {event.imageUrl && (
                   <img
                     src={event.imageUrl}
                     alt={event.title}
-                    className="w-32 h-32 md:w-24 md:h-24 object-cover rounded-lg"
+                    className="w-32 h-32 md:w-24 md:h-24 object-cover rounded-lg transition-all duration-200 group-hover:scale-105 group-hover:brightness-110"
                   />
                 )}
                 <div className="flex-1 min-w-0">
@@ -281,25 +353,40 @@ export default function Events({ searchTerm, onEventsLoaded }: EventsProps) {
                   </div>
                 </div>
               </div>
-            </a>
+            </motion.a>
           ))}
         </div>
       ) : viewMode === 'grid' ? (
         <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2 p-4 pt-0">
           {filteredEvents.map((event, index) => (
-            <a 
+            <motion.a 
               key={index}
               href={event.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="block bg-gray-800 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-200"
+              className="block bg-dark/50 rounded-lg shadow-md overflow-hidden hover:shadow-lg hover:bg-dark/70 transition-all duration-200 group transform-style-3d"
+              whileHover={{ 
+                scale: 1.02,
+                rotateX: 2,
+                rotateY: -2,
+                transition: { type: "spring", stiffness: 300, damping: 10 }
+              }}
+              style={{ perspective: 1000 }}
+              initial={{ opacity: 0, y: 20, scale: 0.95 }}
+              animate={{ opacity: 1, y: 0, scale: 1 }}
+              transition={{ 
+                type: "spring",
+                stiffness: 120,
+                damping: 12,
+                delay: index * 0.05
+              }}
             >
               <div className="relative aspect-video">
                 {event.imageUrl && (
                   <img 
                     src={event.imageUrl} 
                     alt={event.title}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover transition-all duration-200 group-hover:scale-105 group-hover:brightness-110"
                   />
                 )}
                 <div className="absolute bottom-0 left-0 right-0 p-2 bg-black/50 text-white">
@@ -315,25 +402,40 @@ export default function Events({ searchTerm, onEventsLoaded }: EventsProps) {
                   <p className="text-gray-400 truncate">{event.type}</p>
                 </div>
               </div>
-            </a>
+            </motion.a>
           ))}
         </div>
       ) : (
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 p-4 pt-0">
           {filteredEvents.map((event, index) => (
-            <a 
+            <motion.a 
               key={index}
               href={event.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="block bg-gray-800 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-200 text-sm"
+              className="block bg-dark/50 rounded-lg shadow-md overflow-hidden hover:shadow-lg hover:bg-dark/70 transition-all duration-200 text-sm group transform-style-3d"
+              whileHover={{ 
+                scale: 1.02,
+                rotateX: 2,
+                rotateY: -2,
+                transition: { type: "spring", stiffness: 300, damping: 10 }
+              }}
+              style={{ perspective: 1000 }}
+              initial={{ opacity: 0, y: 20, scale: 0.95 }}
+              animate={{ opacity: 1, y: 0, scale: 1 }}
+              transition={{ 
+                type: "spring",
+                stiffness: 120,
+                damping: 12,
+                delay: index * 0.05
+              }}
             >
               <div className="relative aspect-video">
                 {event.imageUrl && (
                   <img 
                     src={event.imageUrl} 
                     alt={event.title}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover transition-all duration-200 group-hover:scale-105 group-hover:brightness-110"
                   />
                 )}
                 <div className="absolute bottom-0 left-0 right-0 p-1.5 bg-black/50 text-white">
@@ -349,7 +451,7 @@ export default function Events({ searchTerm, onEventsLoaded }: EventsProps) {
                   <p className="text-gray-400">{event.type}</p>
                 </div>
               </div>
-            </a>
+            </motion.a>
           ))}
         </div>
       )}
