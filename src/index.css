@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Custom styles to match the reference image */
+body {
+  background-color: #1a202c; /* Background color */
+  color: #f7fafc; /* Default text color */
+}
+
+.bg-gray-900 {
+  background-color: #2d3748; /* Darker background for specific components */
+}
+
+.text-gray-100 {
+  color: #e2e8f0; /* Lighter text color */
+}
+
+/* Additional custom styles can be added here */

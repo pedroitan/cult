@@ -1,26 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
 const AdBanner = () => {
-  const [visible, setVisible] = useState(true);
-  const [prevScrollPos, setPrevScrollPos] = useState(0);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const currentScrollPos = window.pageYOffset;
-      setVisible(prevScrollPos > currentScrollPos || currentScrollPos < 10);
-      setPrevScrollPos(currentScrollPos);
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, [prevScrollPos]);
-
   return (
-    <div 
-      className={`fixed top-0 w-full z-50 transition-transform duration-300 ${
-        visible ? 'translate-y-0' : '-translate-y-full'
-      }`}
-    >
+    <div className="w-full">
       <svg 
         viewBox="0 0 1200 150" 
         className="w-full h-auto"

@@ -5,7 +5,7 @@ import { ListBulletIcon, Squares2X2Icon } from '@heroicons/react/24/outline';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 
-interface Event {
+export interface Event {
   title: string;
   date: string;
   time: string;
@@ -17,9 +17,10 @@ interface Event {
 
 interface EventsProps {
   searchTerm: string;
+  onEventsLoaded?: (events: Event[]) => void;
 }
 
-export default function Events({ searchTerm }: EventsProps) {
+export default function Events({ searchTerm, onEventsLoaded }: EventsProps) {
   const [events, setEvents] = useState<Event[]>([]);
   const [loading, setLoading] = useState(true);
   const [viewMode, setViewMode] = useState<'list' | 'grid' | 'compact'>('grid');
@@ -97,22 +98,27 @@ export default function Events({ searchTerm }: EventsProps) {
         
         console.log('Formatted events:', formattedEvents);
         
-        const today = new Date();
-        today.setHours(0, 0, 0, 0);
-        
-        const filteredAndSorted = formattedEvents
-          .filter(event => {
-            const eventDate = parseDate(event.date);
-            const eventDay = new Date(eventDate);
-            eventDay.setHours(0, 0, 0, 0);
-            return eventDay >= today || eventDay.toDateString() === today.toDateString();
-          })
+          const today = new Date();
+          today.setHours(0, 0, 0, 0);
+          const yesterday = new Date(today);
+          yesterday.setDate(today.getDate() - 1);
+          
+          const filteredAndSorted = formattedEvents
+            .filter(event => {
+              const eventDate = parseDate(event.date);
+              const eventDay = new Date(eventDate);
+              eventDay.setHours(0, 0, 0, 0);
+              return eventDay >= yesterday;
+            })
           .sort((a, b) => {
             const dateA = parseDate(a.date);
             const dateB = parseDate(b.date);
             return dateA.getTime() - dateB.getTime();
           });
         setEvents(filteredAndSorted);
+        if (onEventsLoaded) {
+          onEventsLoaded(filteredAndSorted);
+        }
       } catch (error) {
         console.error('Error fetching from Google Sheets:', error);
         console.log('Falling back to local events data...');
@@ -120,13 +126,15 @@ export default function Events({ searchTerm }: EventsProps) {
           const localData = await import('../data/events.json');
           const today = new Date();
           today.setHours(0, 0, 0, 0);
+          const yesterday = new Date(today);
+          yesterday.setDate(today.getDate() - 1);
           
           const filteredAndSortedLocal = localData.default
             .filter(event => {
               const eventDate = parseDate(event.date);
               const eventDay = new Date(eventDate);
               eventDay.setHours(0, 0, 0, 0);
-              return eventDay >= today || eventDay.toDateString() === today.toDateString();
+              return eventDay >= yesterday;
             })
             .sort((a, b) => {
               const dateA = parseDate(a.date);
@@ -134,6 +142,9 @@ export default function Events({ searchTerm }: EventsProps) {
               return dateA.getTime() - dateB.getTime();
             });
           setEvents(filteredAndSortedLocal);
+          if (onEventsLoaded) {
+            onEventsLoaded(filteredAndSortedLocal);
+          }
         } catch (localError) {
           console.error('Error loading local events:', localError);
           setEvents([]);
@@ -172,9 +183,9 @@ export default function Events({ searchTerm }: EventsProps) {
 
   return (
     <div className="bg-background min-h-screen">
-      <div className="flex items-center p-4 overflow-x-auto scrollbar-hide relative">
+      <div className="flex items-center p-4 overflow-x-auto scrollbar-hide bg-gray-900">
         <div className="flex items-center space-x-2 flex-nowrap">
-          <div className="relative w-32 z-[9999]">
+          <div className="relative w-32">
             <DatePicker
               selected={filters.date ? parseDate(filters.date) : null}
               onChange={(date) => {
@@ -243,7 +254,7 @@ export default function Events({ searchTerm }: EventsProps) {
       </div>
 
       {viewMode === 'list' ? (
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-4 pt-0">
           {filteredEvents.map((event, index) => (
             <a
               key={index}
@@ -274,7 +285,7 @@ export default function Events({ searchTerm }: EventsProps) {
           ))}
         </div>
       ) : viewMode === 'grid' ? (
-        <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2 p-4">
+        <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2 p-4 pt-0">
           {filteredEvents.map((event, index) => (
             <a 
               key={index}
@@ -308,7 +319,7 @@ export default function Events({ searchTerm }: EventsProps) {
           ))}
         </div>
       ) : (
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 p-4">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 p-4 pt-0">
           {filteredEvents.map((event, index) => (
             <a 
               key={index}
