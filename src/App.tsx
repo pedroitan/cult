@@ -3,11 +3,12 @@ import { Search } from 'lucide-react';
 import Events from './components/Events';
 import AdBanner from './components/AdBanner';
 import CuratorsPick from './components/CuratorsPick';
+import Roteiros from './components/Roteiros';
 import { Event } from './components/Events';
 
 function App() {
   const [searchTerm, setSearchTerm] = useState('');
-  const [activeTab, setActiveTab] = useState<'events' | 'curators'>('events');
+  const [activeTab, setActiveTab] = useState<'events' | 'curators' | 'roteiros'>('events');
   const [events, setEvents] = useState<Event[]>([]);
 
   return (
@@ -40,6 +41,16 @@ function App() {
             >
               Curator's Picks
             </button>
+            <button
+              onClick={() => setActiveTab('roteiros')}
+              className={`px-4 py-2 rounded-lg ${
+                activeTab === 'roteiros'
+                  ? 'bg-indigo-600 text-white'
+                  : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+              }`}
+            >
+              Roteiros
+            </button>
           </div>
 
           {/* Search */}
@@ -59,8 +70,10 @@ function App() {
       {/* Content */}
       {activeTab === 'events' ? (
         <Events searchTerm={searchTerm} onEventsLoaded={setEvents} />
-      ) : (
+      ) : activeTab === 'curators' ? (
         <CuratorsPick events={events} />
+      ) : (
+        <Roteiros />
       )}
     </div>
   );
