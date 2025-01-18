@@ -12,9 +12,9 @@ function App() {
   const [events, setEvents] = useState<Event[]>([]);
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen" style={{ backgroundColor: '#1C1240' }}>
       {/* Header and Navigation */}
-      <div className="bg-dark">
+      <div style={{ backgroundColor: '#1C1240' }}>
         <AdBanner />
         <div className="max-w-6xl mx-auto px-4 py-6 space-y-6">
           <h1 className="text-3xl font-bold text-white mb-6">Na Pista!</h1>
@@ -26,7 +26,7 @@ function App() {
               className={`px-4 py-2 rounded-lg ${
                 activeTab === 'events'
                   ? 'bg-indigo-600 text-white'
-                  : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                  : 'bg-dark text-gray-300 hover:bg-dark/90'
               }`}
             >
               Eventos
@@ -36,17 +36,17 @@ function App() {
               className={`px-4 py-2 rounded-lg ${
                 activeTab === 'curators'
                   ? 'bg-indigo-600 text-white'
-                  : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                  : 'bg-dark text-gray-300 hover:bg-dark/90'
               }`}
             >
-              Curator's Picks
+              Curadoria
             </button>
             <button
               onClick={() => setActiveTab('roteiros')}
               className={`px-4 py-2 rounded-lg ${
                 activeTab === 'roteiros'
                   ? 'bg-indigo-600 text-white'
-                  : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                  : 'bg-dark text-gray-300 hover:bg-dark/90'
               }`}
             >
               Roteiros

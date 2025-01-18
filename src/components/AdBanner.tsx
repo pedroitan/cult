@@ -2,7 +2,7 @@ import React from 'react';
 
 const AdBanner = () => {
   return (
-    <div className="w-full">
+    <div className="w-full bg-background">
       <img
         src="https://agendasalvador.netlify.app/banner-holder.png"
         alt="Special Offer Banner"

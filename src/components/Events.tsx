@@ -185,7 +185,7 @@ export default function Events({ searchTerm, onEventsLoaded }: EventsProps) {
   const uniqueTypes = [...new Set(events.map(event => event.type))];
 
   return (
-    <div className="bg-background min-h-screen">
+    <div className="min-h-screen" style={{ backgroundColor: '#1C1240' }}>
       <div className="flex items-center p-4 overflow-x-auto scrollbar-hide">
         <div className="flex items-center space-x-2 flex-nowrap">
           <div className="relative w-32">
@@ -318,7 +318,7 @@ export default function Events({ searchTerm, onEventsLoaded }: EventsProps) {
               href={event.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="block p-4 bg-dark/50 rounded-lg shadow-md hover:shadow-lg hover:bg-dark/70 transition-all duration-200 h-full group transform-style-3d"
+              className="block p-4 bg-dark rounded-lg shadow-md hover:shadow-lg hover:bg-dark/90 transition-all duration-200 h-full group transform-style-3d"
               whileHover={{ 
                 scale: 1.02,
                 rotateX: 2,
@@ -364,7 +364,7 @@ export default function Events({ searchTerm, onEventsLoaded }: EventsProps) {
               href={event.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="block bg-dark/50 rounded-lg shadow-md overflow-hidden hover:shadow-lg hover:bg-dark/70 transition-all duration-200 group transform-style-3d"
+              className="block bg-dark rounded-lg shadow-md overflow-hidden hover:shadow-lg hover:bg-dark/90 transition-all duration-200 group transform-style-3d"
               whileHover={{ 
                 scale: 1.02,
                 rotateX: 2,
@@ -381,12 +381,12 @@ export default function Events({ searchTerm, onEventsLoaded }: EventsProps) {
                 delay: index * 0.05
               }}
             >
-              <div className="relative aspect-video">
+              <div className="relative aspect-square pt-4">
                 {event.imageUrl && (
                   <img 
                     src={event.imageUrl} 
                     alt={event.title}
-                    className="w-full h-full object-cover transition-all duration-200 group-hover:scale-105 group-hover:brightness-110"
+                    className="w-full h-full object-cover object-[center_20%] transition-all duration-200 group-hover:scale-105 group-hover:brightness-110"
                   />
                 )}
                 <div className="absolute bottom-0 left-0 right-0 p-2 bg-black/50 text-white">
@@ -413,7 +413,7 @@ export default function Events({ searchTerm, onEventsLoaded }: EventsProps) {
               href={event.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="block bg-dark/50 rounded-lg shadow-md overflow-hidden hover:shadow-lg hover:bg-dark/70 transition-all duration-200 text-sm group transform-style-3d"
+              className="block bg-dark rounded-lg shadow-md overflow-hidden hover:shadow-lg hover:bg-dark/90 transition-all duration-200 text-sm group transform-style-3d"
               whileHover={{ 
                 scale: 1.02,
                 rotateX: 2,
@@ -430,7 +430,7 @@ export default function Events({ searchTerm, onEventsLoaded }: EventsProps) {
                 delay: index * 0.05
               }}
             >
-              <div className="relative aspect-video">
+              <div className="relative aspect-[4/3] pt-2">
                 {event.imageUrl && (
                   <img 
                     src={event.imageUrl} 
